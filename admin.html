@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard des connexions</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 2em; background: #f5f5f5; }
+    h1 { color: #333; }
+    #compteur { font-size: 2em; color: #0077cc; margin-bottom: 1em; }
+    table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 1em; }
+    th, td { padding: 8px; border: 1px solid #ccc; font-size: 0.9em; text-align: left; }
+    th { background: #eee; }
+    select, button { margin-top: 1em; padding: 6px; }
+    canvas { margin-top: 2em; background: #fff; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>Nombre total de connexions</h1>
+  <div id="compteur">Chargement...</div>
+
+  <label for="filtre">Filtrer par action :</label>
+  <select id="filtre">
+    <option value="">Toutes</option>
+    <option value="connexion">Connexions</option>
+    <option value="clic-devis">Clics sur devis</option>
+    <option value="clic-contact">Clics sur contact</option>
+  </select>
+  <button onclick="exportCSV()">Exporter en CSV</button>
+
+  <table id="log-table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>IP</th>
+        <th>Action</th>
+        <th>Page</th>
+        <th>Localisation</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <canvas id="chart" width="600" height="300"></canvas>
+
+  <script>
+    let lignesBrutes = [];
+
+    fetch("visites.txt")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("compteur").innerText = data + " connexions";
+      });
+
+    function chargerLog() {
+      fetch("log.txt")
+        .then(response => response.text())
+        .then(data => {
+          lignesBrutes = data.trim().split("\n");
+          afficherTableau();
+          afficherGraphique();
+        });
+    }
+
+    function afficherTableau() {
+      const filtre = document.getElementById("filtre").value;
+      const tbody = document.querySelector("#log-table tbody");
+      tbody.innerHTML = "";
+      lignesBrutes.slice().reverse().forEach(ligne => {
+        const match = ligne.match(/^(.*?) - IP: (.*?) - (.*?) - Page: (.*?) - Localisation: (.*)$/);
+        if (match) {
+          const action = match[3];
+          if (!filtre || action === filtre) {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `<td>${match[1]}</td><td>${match[2]}</td><td>${action}</td><td>${match[4]}</td><td>${match[5]}</td>`;
+            tbody.appendChild(tr);
+          }
+        }
+      });
+    }
+
+    function exportCSV() {
+      let csv = "Date,IP,Action,Page,Localisation\n";
+      lignesBrutes.forEach(ligne => {
+        const match = ligne.match(/^(.*?) - IP: (.*?) - (.*?) - Page: (.*?) - Localisation: (.*)$/);
+        if (match) {
+          csv += `"${match[1]}","${match[2]}","${match[3]}","${match[4]}","${match[5]}"\n`;
+        }
+      });
+      const blob = new Blob([csv], { type: "text/csv" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "connexions.csv";
+      a.click();
+    }
+
+    function afficherGraphique() {
+      const parJour = {};
+      lignesBrutes.forEach(ligne => {
+        const match = ligne.match(/^(\d{4}-\d{2}-\d{2})/);
+        if (match) {
+          const jour = match[1];
+          parJour[jour] = (parJour[jour] || 0) + 1;
+        }
+      });
+      const labels = Object.keys(parJour).sort();
+      const data = labels.map(j => parJour[j]);
+      new Chart(document.getElementById("chart"), {
+        type: "bar",
+        data: {
+          labels: labels,
+          datasets: [{
+            label: "Connexions par jour",
+            data: data,
+            backgroundColor: "#5AB9EA"
+          }]
+        },
+        options: {
+          scales: {
+            y: { beginAtZero: true }
+          }
+        }
+      });
+    }
+
+    document.getElementById("filtre").addEventListener("change", afficherTableau);
+    chargerLog();
+  </script>
+</body>
+</html>

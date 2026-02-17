@@ -1,0 +1,402 @@
+2025-10-26 11:00:31 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/ - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-26 11:00:38 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/ - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-26 11:09:05 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-26 11:09:10 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-10-26 11:10:02 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-26 11:32:45 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-26 16:45:34 - IP: 79.95.127.51 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: La Rochelle, Nouvelle-Aquitaine, France
+2025-10-28 02:04:17 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-10-28 11:09:09 - IP: 62.102.248.87 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Maxéville, Grand Est, France
+2025-10-28 11:09:09 - IP: 62.102.248.87 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Maxéville, Grand Est, France
+2025-10-28 11:09:43 - IP: 62.102.248.87 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Maxéville, Grand Est, France
+2025-10-29 04:18:32 - IP: 91.250.249.150 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dublin, Leinster, Ireland
+2025-10-29 04:18:32 - IP: 91.250.249.150 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dublin, Leinster, Ireland
+2025-10-29 04:18:35 - IP: 91.250.249.150 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dublin, Leinster, Ireland
+2025-10-29 09:04:57 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 09:05:00 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 09:05:05 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 09:30:01 - IP: 79.95.87.198 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-10-29 09:30:07 - IP: 66.102.9.41 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-10-29 10:27:03 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:27:03 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:27:06 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:33:55 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:33:57 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:33:59 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-29 10:55:04 - IP: 79.95.87.198 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-10-29 11:15:10 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Delaware, Ohio, United States
+2025-10-30 10:30:32 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-30 10:30:32 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-10-30 10:38:38 - IP: 66.249.83.13 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-10-30 14:36:58 - IP: 155.4.131.116 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Malmo, Skåne County, Sweden
+2025-10-30 14:37:43 - IP: 191.101.31.34 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Paris, Île-de-France, France
+2025-10-30 14:40:31 - IP: 185.243.76.40 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Dubai, Dubai, United Arab Emirates
+2025-10-30 17:24:03 - IP: 149.57.180.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: New York, New York, United States
+2025-10-30 17:24:04 - IP: 149.57.180.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: New York, New York, United States
+2025-10-30 17:24:14 - IP: 149.57.180.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: New York, New York, United States
+2025-10-31 02:12:37 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-10-31 18:46:10 - IP: 82.124.22.44 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mantes-la-Jolie, Île-de-France, France
+2025-10-31 18:46:10 - IP: 82.124.22.44 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mantes-la-Jolie, Île-de-France, France
+2025-10-31 18:46:10 - IP: 82.124.22.44 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mantes-la-Jolie, Île-de-France, France
+2025-11-01 09:46:43 - IP: 88.178.29.240 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2025-11-01 09:46:44 - IP: 88.178.29.240 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2025-11-01 09:46:46 - IP: 88.178.29.240 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2025-11-01 14:37:15 - IP: 79.95.127.181 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Saint-Jean-de-Védas, Occitanie, France
+2025-11-01 14:38:57 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-02 03:20:32 - IP: 66.249.70.167 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-02 03:20:32 - IP: 66.249.70.165 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-02 03:20:32 - IP: 66.249.70.165 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-02 05:19:55 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-02 05:28:17 - IP: 66.249.70.166 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-02 05:31:26 - IP: 66.249.70.166 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-02 05:49:26 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-04 08:50:34 - IP: 68.235.45.52 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2025-11-04 08:50:35 - IP: 68.235.45.52 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2025-11-04 08:50:37 - IP: 68.235.45.52 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2025-11-04 10:22:12 - IP: 150.129.94.238 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Chicago, Illinois, United States
+2025-11-04 10:23:28 - IP: 104.168.71.9 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Buffalo, New York, United States
+2025-11-04 10:27:41 - IP: 104.168.71.133 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Buffalo, New York, United States
+2025-11-06 13:33:13 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-06 13:33:14 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-07 18:16:34 - IP: 49.13.121.114 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Falkenstein, Saxony, Germany
+2025-11-07 18:16:34 - IP: 49.13.121.114 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Falkenstein, Saxony, Germany
+2025-11-07 18:16:35 - IP: 49.13.121.114 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Falkenstein, Saxony, Germany
+2025-11-07 18:48:19 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-07 23:37:18 - IP: 66.249.70.165 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-08 10:32:27 - IP: 206.204.51.162 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: New York, New York, United States
+2025-11-08 10:33:40 - IP: 119.13.202.39 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Wilmington, Delaware, United States
+2025-11-10 06:04:03 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-10 06:04:03 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-10 08:48:46 - IP: 176.171.57.123 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Vihiers, Pays de la Loire, France
+2025-11-10 08:48:50 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-10 10:09:24 - IP: 79.95.87.130 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-11-10 12:17:22 - IP: 205.169.39.57 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:23:33 - IP: 205.169.39.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:23:33 - IP: 205.169.39.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:23:41 - IP: 205.169.39.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:27:45 - IP: 205.169.39.16 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:27:45 - IP: 205.169.39.16 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:27:46 - IP: 205.169.39.16 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:27 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:27 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:28 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:40 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:40 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:40 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:41 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:41 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 12:30:41 - IP: 205.169.39.17 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-10 15:46:01 - IP: 213.44.27.202 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Aulnay-sous-Bois, Île-de-France, France
+2025-11-11 16:21:55 - IP: 41.227.21.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Tunis, Tunis Governorate, Tunisia
+2025-11-11 16:21:58 - IP: 41.227.21.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Tunis, Tunis Governorate, Tunisia
+2025-11-12 04:47:09 - IP: 66.249.70.167 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-12 04:47:10 - IP: 66.249.70.166 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-13 10:54:10 - IP: 41.208.147.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dakar, Dakar, Senegal
+2025-11-13 10:54:11 - IP: 41.208.147.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dakar, Dakar, Senegal
+2025-11-13 10:54:27 - IP: 41.208.147.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dakar, Dakar, Senegal
+2025-11-14 06:43:39 - IP: 34.71.214.216 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Council Bluffs, Iowa, United States
+2025-11-14 06:44:40 - IP: 54.71.187.124 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 06:44:40 - IP: 54.71.187.124 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 06:44:41 - IP: 54.71.187.124 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 07:44:02 - IP: 104.197.69.115 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Council Bluffs, Iowa, United States
+2025-11-14 07:44:02 - IP: 104.197.69.115 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Council Bluffs, Iowa, United States
+2025-11-14 07:44:09 - IP: 104.197.69.115 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Council Bluffs, Iowa, United States
+2025-11-14 08:46:10 - IP: 152.39.145.58 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: New York, New York, United States
+2025-11-14 09:32:17 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:17 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:18 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:29 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:29 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:29 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-11-14 09:32:35 - IP: 205.169.39.21 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Inconnue, , 
+2025-11-14 12:10:44 - IP: 54.185.183.246 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 12:10:44 - IP: 54.185.183.246 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 12:10:45 - IP: 54.185.183.246 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Portland, Oregon, United States
+2025-11-14 13:21:06 - IP: 66.249.70.167 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-15 04:47:41 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-15 04:47:46 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-15 04:47:46 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-16 15:19:00 - IP: 82.127.31.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Gourlizon, Brittany, France
+2025-11-16 15:19:00 - IP: 82.127.31.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Gourlizon, Brittany, France
+2025-11-16 15:19:00 - IP: 82.127.31.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Gourlizon, Brittany, France
+2025-11-17 06:00:44 - IP: 66.249.70.67 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-17 06:00:44 - IP: 66.249.70.68 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-18 12:56:10 - IP: 66.249.70.166 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-22 18:05:11 - IP: 66.249.70.167 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-22 18:05:11 - IP: 66.249.70.166 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-11-24 03:10:12 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-24 07:19:33 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-11-24 20:07:53 - IP: 17.241.227.223 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2025-11-25 08:14:56 - IP: 66.249.73.192 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: El Paso, Texas, United States
+2025-11-28 22:16:44 - IP: 149.56.150.160 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Montreal, Quebec, Canada
+2025-11-28 22:16:44 - IP: 149.56.150.160 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Montreal, Quebec, Canada
+2025-11-29 05:18:28 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-11-29 05:18:47 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-11-29 05:18:47 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-11-29 05:18:48 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-11-29 08:59:49 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-11-29 09:01:24 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-11-30 10:43:34 - IP: 91.107.197.60 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Frankfurt Am Main, Hesse, Germany
+2025-11-30 10:43:35 - IP: 91.107.197.60 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Frankfurt Am Main, Hesse, Germany
+2025-12-01 01:37:09 - IP: 209.85.238.170 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-12-01 04:23:40 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-01 07:13:54 - IP: 81.53.36.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dinan, Brittany, France
+2025-12-01 07:13:54 - IP: 81.53.36.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dinan, Brittany, France
+2025-12-02 08:48:40 - IP: 79.95.86.76 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Rennes, Brittany, France
+2025-12-02 08:48:45 - IP: 142.250.32.7 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-12-02 08:50:50 - IP: 79.95.86.76 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Rennes, Brittany, France
+2025-12-02 09:31:54 - IP: 79.95.86.76 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Rennes, Brittany, France
+2025-12-02 21:48:43 - IP: 49.13.72.93 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Falkenstein, Saxony, Germany
+2025-12-02 21:48:43 - IP: 49.13.72.93 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Falkenstein, Saxony, Germany
+2025-12-04 18:02:13 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-04 18:02:13 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-07 14:07:59 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-07 22:54:23 - IP: 90.26.120.139 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nanterre, Île-de-France, France
+2025-12-07 22:54:37 - IP: 90.26.120.139 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nanterre, Île-de-France, France
+2025-12-08 11:47:09 - IP: 17.22.253.91 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2025-12-08 11:47:10 - IP: 17.22.253.148 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2025-12-08 22:09:24 - IP: 77.141.56.37 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Bordeaux, Nouvelle-Aquitaine, France
+2025-12-08 22:09:24 - IP: 77.141.56.37 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Bordeaux, Nouvelle-Aquitaine, France
+2025-12-09 07:26:27 - IP: 173.252.127.114 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeiTbn2-IHpLMUN4U_y31x6OLsKVav7_cLyVDmZBorBOXD5kL9Fgm9TQort94_aem_uD8ZGf81CbYs2OWC6OgdDQ - Localisation: Forest City, North Carolina, United States
+2025-12-09 07:26:28 - IP: 173.252.127.114 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeiTbn2-IHpLMUN4U_y31x6OLsKVav7_cLyVDmZBorBOXD5kL9Fgm9TQort94_aem_uD8ZGf81CbYs2OWC6OgdDQ - Localisation: Forest City, North Carolina, United States
+2025-12-09 07:26:29 - IP: 31.13.115.6 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeKTjPSc8QnYniWTdkTvRuzTmsoe7STgFdOmc9LhV5rGLSclyLp_mUvFvSK1g_aem_tze9Y6UXlHhGvs0YAp_AMQ - Localisation: Luleå, Norrbotten County, Sweden
+2025-12-09 07:26:30 - IP: 31.13.115.6 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeKTjPSc8QnYniWTdkTvRuzTmsoe7STgFdOmc9LhV5rGLSclyLp_mUvFvSK1g_aem_tze9Y6UXlHhGvs0YAp_AMQ - Localisation: Luleå, Norrbotten County, Sweden
+2025-12-09 15:41:27 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-15 09:05:01 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-15 09:05:02 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-15 09:14:12 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-16 11:25:42 - IP: 173.252.127.26 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEemt0mrq28fl_y9hHZhA-2JdM9yHB8fGmyPfVgmD9X7NaamJLiYz_z6GmaRmA_aem_34FXnnSTzCFt7_2RdvDV9g - Localisation: Forest City, North Carolina, United States
+2025-12-16 11:25:43 - IP: 173.252.127.26 - connexion - Page: https://leclatdanjou.fr/?fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEemt0mrq28fl_y9hHZhA-2JdM9yHB8fGmyPfVgmD9X7NaamJLiYz_z6GmaRmA_aem_34FXnnSTzCFt7_2RdvDV9g - Localisation: Forest City, North Carolina, United States
+2025-12-16 12:04:54 - IP: 176.145.93.31 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-12-16 12:28:12 - IP: 77.204.106.15 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Rouilly-Saint-Loup, Grand Est, France
+2025-12-16 23:32:06 - IP: 66.249.73.192 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-16 23:32:07 - IP: 66.249.73.193 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-17 00:32:04 - IP: 142.250.32.7 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-12-17 00:32:04 - IP: 142.250.32.7 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2025-12-17 05:31:08 - IP: 88.186.235.138 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Saivres, Nouvelle-Aquitaine, France
+2025-12-17 08:00:58 - IP: 79.83.33.107 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mutzig, Grand Est, France
+2025-12-17 13:28:49 - IP: 205.169.39.176 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 13:28:49 - IP: 205.169.39.176 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 13:29:18 - IP: 205.169.39.238 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 13:29:18 - IP: 205.169.39.238 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 14:12:13 - IP: 37.58.221.31 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Sorigny, Centre-Val de Loire, France
+2025-12-17 14:12:13 - IP: 37.58.221.31 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Sorigny, Centre-Val de Loire, France
+2025-12-17 14:50:36 - IP: 172.236.122.62 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2025-12-17 14:50:36 - IP: 172.236.122.62 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2025-12-17 16:54:06 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-17 17:23:47 - IP: 92.128.114.22 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Le Loroux-Bottereau, Pays de la Loire, France
+2025-12-17 17:23:47 - IP: 92.128.114.22 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Le Loroux-Bottereau, Pays de la Loire, France
+2025-12-17 17:31:14 - IP: 79.95.127.98 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-12-17 17:31:21 - IP: 66.249.88.128 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2025-12-17 17:32:18 - IP: 79.95.127.98 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Nantes, Pays de la Loire, France
+2025-12-17 20:34:49 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:34:49 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:35:01 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:35:01 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:35:02 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:35:02 - IP: 205.169.39.29 - connexion - Page: https://mail.leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-17 20:36:20 - IP: 205.169.39.3 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Dallas, Texas, United States
+2025-12-18 06:21:48 - IP: 17.22.237.51 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2025-12-18 06:21:48 - IP: 17.22.253.120 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2025-12-18 17:28:37 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-22 01:09:40 - IP: 51.210.118.219 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Wattrelos, Hauts-de-France, France
+2025-12-22 01:09:40 - IP: 51.210.118.219 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Wattrelos, Hauts-de-France, France
+2025-12-22 09:21:32 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-22 09:21:32 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-22 09:54:36 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-23 20:52:35 - IP: 51.77.100.192 - connexion - Page: https://leclatdanjou.fr/ - Localisation: City of London, England, United Kingdom
+2025-12-24 15:26:55 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-27 17:15:37 - IP: 66.249.73.193 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-27 17:15:37 - IP: 66.249.73.193 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 08:40:15 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-12-29 08:40:15 - IP: 64.71.166.35 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Delaware, Ohio, United States
+2025-12-29 09:05:08 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 09:05:08 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:17:42 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:17:42 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:19:27 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:20:02 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:20:03 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:21:26 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:22:27 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:22:28 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:23:01 - IP: 66.249.73.228 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:23:01 - IP: 66.249.73.225 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:23:44 - IP: 66.249.73.224 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:23:44 - IP: 66.249.73.231 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 10:25:30 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-29 11:15:09 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-30 10:31:06 - IP: 149.56.150.242 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Montreal, Quebec, Canada
+2025-12-31 10:26:44 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:26:44 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:35:59 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:35:59 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:36:53 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:36:53 - IP: 66.249.73.231 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:39:13 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:39:13 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:39:52 - IP: 66.249.73.224 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 10:39:53 - IP: 66.249.73.231 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2025-12-31 13:51:14 - IP: 66.249.73.192 - connexion - Page: https://www.leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-01 09:06:17 - IP: 66.249.73.193 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-01 10:22:17 - IP: 116.212.188.195 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Detroit, Michigan, United States
+2026-01-01 10:23:13 - IP: 91.132.185.106 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Lincoln, Nebraska, United States
+2026-01-01 10:26:25 - IP: 206.204.31.9 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Chicago, Illinois, United States
+2026-01-05 10:42:48 - IP: 66.249.73.229 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-05 15:33:53 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-05 17:55:43 - IP: 45.43.145.240 - connexion - Page: http://leclatdanjou.fr/ - Localisation: Paris, Île-de-France, France
+2026-01-05 23:35:51 - IP: 17.241.75.186 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2026-01-06 11:25:05 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:25:05 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:27:08 - IP: 66.249.73.232 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:27:08 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:28:48 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:28:49 - IP: 66.249.73.230 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:31:02 - IP: 66.249.73.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:31:02 - IP: 66.249.73.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-06 11:32:16 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-07 09:57:29 - IP: 66.249.73.192 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-07 09:57:34 - IP: 66.249.73.205 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-08 04:29:57 - IP: 66.249.73.192 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Oskaloosa, Iowa, United States
+2026-01-08 10:40:49 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-08 10:40:49 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-08 10:40:50 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Oskaloosa, Iowa, United States
+2026-01-10 08:47:59 - IP: 17.241.219.5 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2026-01-10 10:16:59 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/maine-et-loire.html - Localisation: Three Rivers, Michigan, United States
+2026-01-10 10:46:29 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-10 10:46:29 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-10 16:25:39 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/segre.html - Localisation: Three Rivers, Michigan, United States
+2026-01-12 17:48:44 - IP: 66.249.73.234 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:10:15 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/becon-les-granits.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:10:15 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/becon-les-granits.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:11:39 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/val-erdre-auxence.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:11:40 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/val-erdre-auxence.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:11:55 - IP: 66.249.73.224 - connexion - Page: https://leclatdanjou.fr/becon-les-granits.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:12:42 - IP: 66.249.73.228 - connexion - Page: https://leclatdanjou.fr/cande.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:12:42 - IP: 66.249.73.229 - connexion - Page: https://leclatdanjou.fr/cande.html - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:26:53 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:26:53 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:30:18 - IP: 66.249.73.235 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-13 10:58:10 - IP: 66.249.73.233 - connexion - Page: https://leclatdanjou.fr/becon-les-granits.html - Localisation: Three Rivers, Michigan, United States
+2026-01-14 15:16:12 - IP: 66.249.74.37 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Three Rivers, Michigan, United States
+2026-01-15 08:40:34 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-15 08:40:34 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-15 08:41:43 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-15 08:41:43 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-15 09:02:07 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ancenis.html - Localisation: Three Rivers, Michigan, United States
+2026-01-15 09:02:07 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ancenis.html - Localisation: Three Rivers, Michigan, United States
+2026-01-15 11:22:21 - IP: 185.13.182.152 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Suresnes, Île-de-France, France
+2026-01-15 14:43:32 - IP: 74.125.210.67 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-15 14:53:47 - IP: 79.95.127.183 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-15 14:58:56 - IP: 79.95.127.183 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-15 15:01:07 - IP: 79.95.127.183 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-15 15:26:12 - IP: 79.95.127.183 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-15 15:32:21 - IP: 66.102.9.199 - connexion - Page: https://www.leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2026-01-15 15:37:59 - IP: 79.95.127.183 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-17 03:41:07 - IP: 17.22.253.166 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2026-01-18 14:57:42 - IP: 64.145.94.101 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Paris, Île-de-France, France
+2026-01-18 15:46:44 - IP: 89.87.40.112 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Héric, Pays de la Loire, France
+2026-01-18 17:20:35 - IP: 66.249.65.39 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-18 17:20:36 - IP: 66.249.65.37 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-19 01:36:12 - IP: 209.85.238.133 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-19 07:29:50 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-19 07:29:50 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-19 07:37:51 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-19 07:37:51 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-19 12:37:06 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-19 13:32:28 - IP: 135.125.98.59 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Wattrelos, Hauts-de-France, France
+2026-01-19 13:34:37 - IP: 135.125.98.59 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Wattrelos, Hauts-de-France, France
+2026-01-19 13:34:39 - IP: 135.125.98.59 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Wattrelos, Hauts-de-France, France
+2026-01-19 19:49:57 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-20 04:55:47 - IP: 66.249.65.37 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-20 05:09:10 - IP: 66.249.65.39 - connexion - Page: https://www.leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-21 11:41:57 - IP: 79.95.127.2 - connexion - Page: https://leclatdanjou.fr/ancenis.html - Localisation: Nantes, Pays de la Loire, France
+2026-01-21 23:33:56 - IP: 103.147.86.64 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Rawalpindi, Punjab, Pakistan
+2026-01-22 09:16:14 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-22 09:16:14 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-22 09:34:48 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-22 09:34:48 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-22 14:12:06 - IP: 17.246.23.170 - connexion - Page: https://leclatdanjou.fr/val-erdre-auxence.html - Localisation: Cupertino, California, United States
+2026-01-22 23:19:40 - IP: 17.22.237.110 - connexion - Page: https://leclatdanjou.fr/ancenis.html - Localisation: Cupertino, California, United States
+2026-01-24 02:25:25 - IP: 17.241.227.15 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Cupertino, California, United States
+2026-01-24 08:55:43 - IP: 79.95.127.153 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-24 08:55:50 - IP: 66.249.83.128 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Allentown, Pennsylvania, United States
+2026-01-24 09:00:14 - IP: 79.95.127.153 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-24 09:00:24 - IP: 66.102.9.104 - connexion - Page: https://leclatdanjou.fr/mobile.html - Localisation: Mountain View, California, United States
+2026-01-24 09:07:34 - IP: 79.95.127.153 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-24 09:07:47 - IP: 79.95.127.153 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Nantes, Pays de la Loire, France
+2026-01-26 08:17:44 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:17:45 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:18:08 - IP: 66.249.65.44 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-26 08:18:08 - IP: 66.249.74.131 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:24:42 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:24:42 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:44:11 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:44:11 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:44:43 - IP: 66.249.73.6 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:44:43 - IP: 66.249.65.104 - connexion - Page: https://leclatdanjou.fr/ - Localisation: El Paso, Texas, United States
+2026-01-26 08:45:57 - IP: 66.249.65.201 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Mountain View, California, United States
+2026-01-26 08:45:57 - IP: 66.249.73.101 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:47:05 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:47:09 - IP: 66.249.73.169 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:47:38 - IP: 66.249.73.162 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 08:47:38 - IP: 66.249.73.163 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 09:09:08 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 09:09:08 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 10:10:06 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 10:10:07 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-26 10:11:30 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 10:11:30 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-26 15:06:08 - IP: 176.157.128.133 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Paris, Île-de-France, France
+2026-01-27 11:39:40 - IP: 31.32.37.144 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Paris, Île-de-France, France
+2026-01-27 16:57:11 - IP: 176.133.166.28 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mériel, Île-de-France, France
+2026-01-27 17:00:37 - IP: 176.133.166.28 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mériel, Île-de-France, France
+2026-01-28 08:19:34 - IP: 66.249.73.165 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-28 08:19:34 - IP: 66.249.73.167 - connexion - Page: https://leclatdanjou.fr/angers.html - Localisation: Three Rivers, Michigan, United States
+2026-01-28 08:20:20 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-28 08:20:20 - IP: 66.249.73.166 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Three Rivers, Michigan, United States
+2026-01-28 08:49:44 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 08:49:45 - IP: 66.102.9.103 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 09:48:38 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 09:48:38 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 09:55:09 - IP: 66.102.9.104 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 09:55:09 - IP: 66.102.9.103 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:21:25 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:21:26 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:24:52 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:24:52 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:32:00 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:32:00 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:39:22 - IP: 66.102.9.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:39:22 - IP: 66.102.9.103 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:41:35 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:41:35 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:49:04 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:49:04 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:53:06 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 10:53:06 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 11:02:00 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 11:02:01 - IP: 66.102.9.105 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:01:37 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:01:37 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:05:48 - IP: 66.249.93.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:05:48 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:23:11 - IP: 66.102.9.103 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:23:12 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:28:39 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:28:39 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:32:56 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:32:56 - IP: 66.249.93.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:36:48 - IP: 66.249.81.130 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:36:48 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:53:16 - IP: 66.249.93.231 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:54:25 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 12:54:25 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:05:08 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:05:09 - IP: 66.249.93.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:05:12 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:05:12 - IP: 66.249.93.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:07:37 - IP: 66.249.93.233 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:07:37 - IP: 66.249.93.232 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:07:37 - IP: 66.249.81.128 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States
+2026-01-28 13:07:37 - IP: 66.249.81.129 - connexion - Page: https://leclatdanjou.fr/ - Localisation: Mountain View, California, United States

@@ -1,0 +1,77 @@
+# ---------------------------------------------------------
+# 🔒 1. Redirection automatique vers HTTPS + suppression du www
+# ---------------------------------------------------------
+RewriteEngine On
+
+# 1️⃣ Forcer HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2️⃣ Forcer non-www
+RewriteCond %{HTTP_HOST} ^www\.leclatdanjou\.fr$ [NC]
+RewriteRule ^(.*)$ https://leclatdanjou.fr/$1 [L,R=301]
+
+
+# ---------------------------------------------------------
+# 🔁 2. Redirections 301 pour pages inexistantes
+# ---------------------------------------------------------
+Redirect 301 /galerie.html https://leclatdanjou.fr/galerie/
+Redirect 301 /services.html https://leclatdanjou.fr/services/
+Redirect 301 /contact.html https://leclatdanjou.fr/contact/
+Redirect 301 /Laveur-de-vitres-Segré.html https://leclatdanjou.fr/segre.html
+Redirect 301 /Angers.html https://leclatdanjou.fr/angers.html
+
+
+# ---------------------------------------------------------
+# ⚡ 3. Compression GZIP
+# ---------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+
+# ---------------------------------------------------------
+# 🚀 4. Cache navigateur
+# ---------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 30 days"
+  ExpiresByType text/javascript "access plus 30 days"
+  ExpiresByType application/javascript "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+</IfModule>
+
+
+# ---------------------------------------------------------
+# 🛡️ 5. Sécurité basique
+# ---------------------------------------------------------
+<FilesMatch "\.(htaccess|htpasswd|ini|log|conf)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+Options -Indexes
+
+
+# ---------------------------------------------------------
+# 🧹 6. Page 404 personnalisée (optionnel)
+# ---------------------------------------------------------
+# ErrorDocument 404 /404.html
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 month"
+</IfModule>
