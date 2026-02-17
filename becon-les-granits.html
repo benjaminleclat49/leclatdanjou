@@ -8,18 +8,16 @@
   <!-- FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- TITLE SEO OPTIMISÉ (NE CIBLE PLUS ANGERS) -->
-  <title>Nettoyage de vitres professionnel – Service premium pour particuliers | L’Éclat d’Anjou</title>
-  <link rel="canonical" href="https://leclatdanjou.fr/" />
+  <!-- TITLE SEO OPTIMISÉ POUR BÉCON-LES-GRANITS -->
+  <title>Laveur de vitres à Bécon-les-Granits – Nettoyage de vitres pour particuliers | L’Éclat d’Anjou</title>
+  <link rel="canonical" href="https://leclatdanjou.fr/becon-les-granits.html">
 
-  <!-- META DESCRIPTION OPTIMISÉE (GÉNÉRALE, NON LOCALE) -->
-  <meta name="description" content="Service professionnel de nettoyage de vitres pour particuliers et entreprises. Résultat impeccable, intervention discrète et travail soigné dans tout le Maine-et-Loire.">
+  <!-- META DESCRIPTION OPTIMISÉE POUR BÉCON-LES-GRANITS -->
+  <meta name="description" content="Nettoyage de vitres professionnel à Bécon-les-Granits. Service soigné, discret et premium pour particuliers et entreprises. L’Éclat d’Anjou : votre expert local.">
 
-  <!-- Scripts -->
-  <!-- ⚠️ ReCaptcha = petit blocage JS (reflow + TBT) mais obligatoire -->
+ <!-- Scripts -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-  <!-- ⚠️ compteur.php = bloque le chemin critique si exécuté trop tôt -->
   <script>
     if (!sessionStorage.getItem("compteur-envoyé")) {
       fetch("compteur.php");
@@ -40,45 +38,29 @@
   </script>
 
   <!-- Fonts & Tailwind -->
-  <!-- ✔️ préconnect = très bon -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-<script>
-  tailwind.config = {
-    corePlugins: {
-      preflight: false
-    },
-    darkMode: false,
-    theme: {
-      extend: {
-        fontFamily: {
-          sans: ['Inter', 'Montserrat', 'sans-serif'],
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: false,
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Montserrat', 'sans-serif'],
+          }
         }
       }
-    }
-  }
-</script>
-
-<!-- ⚠️ Tailwind CDN = 180 ms de blocage + compilation JS -->
-<script src="https://cdn.tailwindcss.com"></script>
+    };
+  </script>
 
   <!-- Styles -->
-  <!-- ⚠️ AOS.css = petit blocage CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-
-  <!-- ⚠️ custom.css = blocage CSS (léger) -->
   <link rel="stylesheet" href="css/custom.css" />
-
-  <!-- ⚠️ output.css = blocage CSS (léger) -->
-  <link rel="stylesheet" href="output.css" />
-
-  <!-- ✔️ defer = parfait -->
+  <link rel="stylesheet" href="dist/output.css" />
   <script src="main.js" defer></script>
-
-  <!-- ✔️ preload image = excellent pour LCP -->
-  <link rel="preload" as="image" href="hero.jpg" fetchpriority="high">
 
   <!-- Données structurées LocalBusiness -->
   <script type="application/ld+json">
@@ -166,7 +148,20 @@
   </p>
 </div>
 
-<!-- ===== HEADER PREMIUM ===== -->
+ <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script>
+  // Redirection simple si largeur écran < 768px
+  if (window.innerWidth < 768) {
+    window.location.href = "mobile.html";
+  }
+</script>
+<meta charset="UTF-8">
+<title>L'Éclat d'Anjou</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Playfair+Display:ital,wght@1,500&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 
 <style>
   /* Reset de base */
@@ -199,31 +194,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 32px;
-    white-space: nowrap;
   }
 
-  /* Logo + slogan */
+  /* Logo et slogan */
   .logo-block {
     display: flex;
     flex-direction: column;
     cursor: pointer;
   }
 
-  .logo-block h1 {
+  h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.8rem;
     font-weight: 600;
     color: #1e293b;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    transition: color 0.3s ease;
   }
 
-  .logo-block h1 span {
-    color: #50d4ff;
+  h1 span {
+    color: #50d4ff; /* bleu clair joyeux */
   }
 
-  .logo-block p {
+  p {
     font-family: 'Playfair Display', serif;
     font-style: italic;
     font-weight: 500;
@@ -232,7 +226,7 @@
     margin-top: 2px;
   }
 
-  /* Animation */
+  /* Animation logo */
   @keyframes slideInLeft {
     0% { opacity: 0; transform: translateX(-40px); }
     100% { opacity: 1; transform: translateX(0); }
@@ -253,7 +247,6 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    flex-shrink: 1;
   }
 
   .nav-link {
@@ -273,11 +266,13 @@
     transition: transform 0.3s ease, color 0.3s ease;
   }
 
+  /* Hover effect lettres */
   .nav-link:hover span {
     transform: translateY(-2px);
     color: #50d4ff;
   }
 
+  /* Underline gradient */
   .nav-link::after {
     content: "";
     position: absolute;
@@ -330,12 +325,12 @@
     pointer-events: auto;
   }
 
-  /* Instagram */
+  /* Instagram button */
   .instagram-button {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
+    width: 50px;
     height: 50px;
     border-radius: 50%;
     background: #eaf3ff;
@@ -355,67 +350,121 @@
     box-shadow: 0 8px 20px rgba(11,58,117,0.26);
   }
 
-/* Téléphone */
+  /* Responsive */
+  @media (max-width: 768px) {
+    nav {
+      display: none; /* On pourra ajouter un menu burger si besoin */
+    }
+  }
+  
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  white-space: nowrap; /* empêche les éléments de passer à la ligne */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-shrink: 1; /* permet au menu de se compresser légèrement */
+}
+
+.contact-zone, .instagram-button, .phone-button {
+  white-space: nowrap; /* empêche le téléphone de passer à la ligne */
+}
+
+
+
+/* BOUTON TELEPHONE – SIGNATURE DESIGN */
 .phone-button-premium {
   display: inline-flex;
   align-items: center;
   gap: 1px;
   padding: 9px 5px;
   border-radius: 999px;
-  background: linear-gradient(145deg, rgba(255,255,255,0.95), rgba(245,250,252,0.85));
+
+  background: linear-gradient(
+    145deg,
+    rgba(255,255,255,0.95),
+    rgba(245,250,252,0.85)
+  );
+
   border: 1px solid rgba(80, 212, 255, 0.35);
   backdrop-filter: blur(8px);
+
   color: #0a0a0a;
   font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 10px 28px rgba(80,212,255,0.25);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.8),
+    0 10px 28px rgba(80,212,255,0.25);
+
   transition: all 0.35s ease;
-
-  /* --- Position premium --- */
-  position: absolute;
-  right: -3px; /* déborde comme ton logo fiscal */
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 50;
 }
 
+/* HOVER */
 .phone-button-premium:hover {
-  transform: translateY(-2px) translateY(-50%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 18px 42px rgba(80,212,255,0.38);
+  transform: translateY(-2px);
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,0.9),
+    0 18px 42px rgba(80,212,255,0.38);
 }
 
+/* ICÔNE TELEPHONE — SVG MASQUÉ */
 .phone-icon-premium {
   width: 15px;
   height: 15px;
-  background: linear-gradient(180deg, #50d4ff, #2bb8e8);
-  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z'/></svg>") center / contain no-repeat;
+  background: linear-gradient(
+    180deg,
+    #50d4ff,
+    #2bb8e8
+  );
+
+  mask: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>\
+    <path d='M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z'/>\
+  </svg>") center / contain no-repeat;
 }
 
-  /* Badge fiscal */
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.06); }
-    100% { transform: scale(1); }
-  }
+
+
+/* TEXTE */
+
+
+
 </style>
+</head>
+<body>
 
 <header>
   <div class="header-container">
 
-    <!-- Badge fiscal -->
-    <div style="position: fixed; top: 12px; left: 12px; z-index: 9999;">
-      <img src="badge-credit-impot.png" alt="50% Crédit d'impôt" style="height:155px; animation:pulse 2.5s ease-in-out infinite;">
-    </div>
+<!-- Badge fiscal flottant à gauche -->
+<div style="position: fixed; top: 12px; left: 12px; z-index: 9999;">
+  <img src="badge-credit-impot.png" alt="50% Crédit d'impôt" style="height:155px; animation:pulse 2.5s ease-in-out infinite;">
+  <style>
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+</style>
 
-    <!-- Logo -->
+</div>
+
+    <!-- Bloc logo + slogan (inchangé) -->
     <div class="logo-block animate-slideInLeft">
       <h1><span>L’Éclat</span> d’Anjou</h1>
       <p class="animate-slideInLeftDelay">Notre transparence, notre signature</p>
     </div>
 
-    <!-- Navigation -->
+    <!-- Navigation (inchangé) -->
     <nav>
       <a href="#accueil" class="nav-link"><span>A</span><span>C</span><span>C</span><span>U</span><span>E</span><span>I</span><span>L</span></a>
       <a href="#apropos" class="nav-link"><span>À</span><span>P</span><span>R</span><span>O</span><span>P</span><span>O</span><span>S</span></a>
@@ -426,216 +475,137 @@
       <a href="#avis" class="nav-link"><span>A</span><span>V</span><span>I</span><span>S</span></a>
       <a href="#contact" class="nav-link"><span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span></a>
 
-      <a class="instagram-button" href="https://instagram.com/leclatdanjou" target="_blank" rel="noopener">
+      <a class="instagram-button" href="https://instagram.com/leclatdanjou" target="_blank" rel="noopener" aria-label="Instagram L’Éclat d’Anjou">
         <img src="logo-instagram.jpg" alt="Instagram L’Éclat d’Anjou">
       </a>
+<a href="tel:0617905226" class="phone-button-premium">
+  <span class="phone-icon-premium"></span>
+  <span class="phone-text">06 17 90 52 26</span>
+</a>
 
-      <a href="tel:0617905226" class="phone-button-premium">
-        <span class="phone-icon-premium"></span>
-        <span class="phone-text">06 17 90 52 26</span>
-      </a>
     </nav>
 
   </div>
+  
 </header>
+
+<script>
+  // Cliquer sur logo pour reload
+  document.querySelector('.logo-block').addEventListener('click', () => {
+    location.reload();
+  });
+</script>
+
+</body>
+</html>
 <section id="accueil" class="hero-section" style="position: relative;">
 
-<img src="hero.jpg" alt="..." fetchpriority="high">
+  <!-- Image hero plein écran -->
+  <img src="hero.jpg" alt="Image d'accueil" class="hero">
 
-  <!-- POINT 1 -->
+  <!-- Points interactifs -->
   <div class="radar-point" style="top:48%; left:55%;">
     <span class="plus-anim">+</span>
-    <div class="tooltip">
-      <div class="tooltip-title">Pergola</div>
-      <p>Nettoyage des montants, dégraissage des zones exposées et rinçage contrôlé pour éviter les traces.</p>
-    </div>
+    <div class="tooltip">Votre pergola mérite le meilleur : un nettoyage méticuleux qui sublime son apparence et prolonge sa longévité.</div>
   </div>
 
-  <!-- POINT 2 -->
   <div class="radar-point" style="top:67%; left:76.5%;">
     <span class="plus-anim">+</span>
-    <div class="tooltip">
-      <div class="tooltip-title">Vitres</div>
-      <p>Lavage à l’eau pure ou raclette, angles repris manuellement pour un rendu uniforme.</p>
-    </div>
+    <div class="tooltip">On nettoie vos vitres comme si c’était les nôtres : résultat net, sans trace, même en hauteur.</div>
   </div>
 
-  <!-- POINT 3 -->
   <div class="radar-point" style="top:85%; left:47%;">
     <span class="plus-anim">+</span>
-    <div class="tooltip">
-      <div class="tooltip-title">Terrasse</div>
-      <p>Nettoyage basse pression adapté au matériau, retrait des mousses et dépôts incrustés.</p>
-    </div>
+    <div class="tooltip">Redonnez éclat à votre terrasse avec un nettoyage haut de gamme qui élimine les mousses et révèle la beauté du revêtement.</div>
   </div>
 
-  <!-- POINT 4 -->
   <div class="radar-point" style="top:60%; left:20%;">
     <span class="plus-anim">+</span>
-    <div class="tooltip">
-      <div class="tooltip-title">Véranda</div>
-      <p>Vitrages, montants et joints nettoyés pour optimiser la luminosité et éviter l’encrassement.</p>
-    </div>
+    <div class="tooltip">Un entretien régulier pour une véranda toujours lumineuse, propre et agréable à vivre.</div>
   </div>
-
-  <!-- POINT 5 -->
-  <div class="radar-point" style="top:35%; left:60%;">
+  
+    <div class="radar-point" style="top:35%; left:60%;">
     <span class="plus-anim">+</span>
-    <div class="tooltip">
-      <div class="tooltip-title">Volets</div>
-      <p>Dépoussiérage, lavage manuel et rinçage doux pour préserver la peinture et les mécanismes.</p>
-    </div>
+    <div class="tooltip">Des volets impeccables, nettoyés avec précision pour rehausser l’élégance de votre façade.</div>
   </div>
 
 </section>
 
 <style>
-
-/* HERO */
+/* Hero image */
 .hero-section .hero {
-  width: 100%;
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-/* POINTS – version ultra premium */
+/* Radar points */
 .radar-point {
   position: absolute;
   transform: translate(-50%, -50%);
-  width: 54px;
-  height: 54px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
-  background: radial-gradient(circle, #00C6FF 45%, rgba(0,198,255,0.22) 80%);
-  box-shadow:
-    0 0 28px rgba(0,198,255,0.85),
-    inset 0 0 14px rgba(255,255,255,0.45),
-    0 0 60px rgba(0,198,255,0.35);
+  background: radial-gradient(circle, #00BFFF 30%, rgba(0,191,255,0.2) 70%);
+  box-shadow: 0 0 12px rgba(0,191,255,0.4);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  animation: radarPulse 2.6s infinite ease-in-out;
+  animation: radarPulse 2s infinite ease-in-out;
   z-index: 2;
-  overflow: visible;
+  transition: box-shadow 0.3s ease;
 }
 
-/* Anneau holographique multi-couches */
-.radar-point::before,
-.radar-point::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
+.radar-point:hover {
+  box-shadow: 0 0 24px rgba(0,191,255, 0.6);
+}
+
+/* Plus animation */
+.plus-anim {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  animation: plusBounce 1.2s infinite ease-in-out;
   pointer-events: none;
 }
 
-.radar-point::before {
-  width: 78px;
-  height: 78px;
-  border: 2px solid rgba(0,198,255,0.35);
-  animation: rotateRing 7s linear infinite;
-  filter: drop-shadow(0 0 8px rgba(0,198,255,0.5));
-}
-
-.radar-point::after {
-  width: 110px;
-  height: 110px;
-  border: 1px solid rgba(0,198,255,0.18);
-  animation: rotateRingReverse 9s linear infinite;
-  filter: drop-shadow(0 0 10px rgba(0,198,255,0.25));
-}
-
-/* Effet scan lumineux */
-.radar-point:hover::after {
-  animation: scanGlow 1.6s ease-out;
-}
-
-/* Plus holographique */
-.plus-anim {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 900;
-  text-shadow:
-    0 0 10px rgba(0,198,255,1),
-    0 0 18px rgba(0,198,255,0.8);
-  animation: plusBounce 1.4s infinite ease-in-out;
-}
-
-/* TOOLTIP – version carte en lévitation */
+/* Tooltip */
 .tooltip {
   display: none;
   position: absolute;
-  top: -160px;
+  top: -100px;
   left: 50%;
-  transform: translateX(-50%) scale(0.92);
-  width: 280px;
-  padding: 22px;
-  border-radius: 18px;
-
-  background: rgba(0, 25, 45, 0.65);
-  backdrop-filter: blur(18px) saturate(220%);
-  border: 1px solid rgba(0,198,255,0.55);
-
-  box-shadow:
-    0 0 40px rgba(0,198,255,0.55),
-    inset 0 0 22px rgba(255,255,255,0.12);
-
-  opacity: 0;
-  transition: opacity .35s ease, transform .35s ease;
+  transform: translateX(-50%);
+  background: rgba(255,255,255,0.95);
+  color: #333;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  width: 260px;
+  line-height: 1.4;
   z-index: 3;
+  transition: opacity 0.3s ease;
 }
 
-/* Apparition premium */
+/* Show tooltip on hover */
 .radar-point:hover .tooltip {
   display: block;
-  opacity: 1;
-  transform: translateX(-50%) translateY(-10px) scale(1);
-}
-
-/* TITRE */
-.tooltip-title {
-  font-size: 19px;
-  font-weight: 800;
-  color: #5FE3FF;
-  margin-bottom: 12px;
-  text-shadow: 0 0 8px rgba(0,198,255,0.7);
-}
-
-/* TEXTE lisible */
-.tooltip p {
-  margin: 0;
-  font-size: 15px;
-  color: #EFFFFF;
-  line-height: 1.6;
-  font-weight: 500;
-  text-shadow: 0 0 6px rgba(0,0,0,0.55);
 }
 
 /* Animations */
 @keyframes radarPulse {
-  0% { box-shadow: 0 0 0 0 rgba(0,198,255,0.55); }
-  50% { box-shadow: 0 0 0 38px rgba(0,198,255,0); }
-  100% { box-shadow: 0 0 0 0 rgba(0,198,255,0); }
+  0% { box-shadow: 0 0 0 0 rgba(0,191,255, 0.4); }
+  50% { box-shadow: 0 0 0 24px rgba(0,191,255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(0,191,255, 0); }
 }
 
 @keyframes plusBounce {
-  0%,100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.55); opacity: .75; }
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.6; }
 }
-
-@keyframes rotateRing {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes rotateRingReverse {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
-}
-
-@keyframes scanGlow {
-  0% { box-shadow: 0 0 0 rgba(0,198,255,0); }
-  100% { box-shadow: 0 0 40px rgba(0,198,255,0.8); }
-}
-
 </style>
 
 
@@ -830,7 +800,9 @@
   animation: lineFlow 3s linear infinite;
 }
 </style>
-
+              </p>
+            </div>
+          </div>
 <section id="experience" class="py-20 bg-white dark:bg-[#0a192f]">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
 
@@ -844,26 +816,22 @@
       </p>
     </div>
 
-    <!-- LIVRE PREMIUM -->
+    <!-- LIVRE -->
     <div class="book-wrapper">
 
-      <div class="book auto-open">
-
-        <!-- MARQUE-PAGE MINIMALISTE -->
-        <div class="bookmark"></div>
+      <div class="book">
 
         <!-- COUVERTURE -->
         <div class="paper" id="p0">
           <div class="front cover">
-            <div class="cover-light"></div>
-            <div class="content cover-content">
+            <div class="content">
               <h1>L’Éclat d’Anjou</h1>
               <h3>Mon parcours professionnel</h3>
-              <p class="cover-sub">Cliquer sur “Page suivante” pour ouvrir le livre</p>
+              <p>Cliquer sur “Page suivante” pour ouvrir le livre</p>
             </div>
           </div>
           <div class="back cover-inner">
-            <div class="content cover-content">
+            <div class="content">
               <h3>Bienvenue</h3>
               <p>Ce livre retrace mon parcours professionnel, de mes débuts à la création de L’Éclat d’Anjou.</p>
             </div>
@@ -873,18 +841,18 @@
         <!-- PAGE 1 -->
         <div class="paper" id="p1">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Débuts dans le nettoyage industriel</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Débuts dans le nettoyage industriel</h3>
               <p>
                 J’ai commencé ma carrière dans le <strong>nettoyage industriel</strong>, où j’ai exercé pendant 5 ans.
-                Cette période m’a appris la rigueur, la précision et l’importance d’un travail soigné, même dans les environnements les plus exigeants.
+                Cette période m’a permis d’acquérir une solide rigueur professionnelle, une maîtrise des techniques
+                spécifiques et le sens du travail bien fait, même dans les environnements les plus exigeants.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Cette première expérience a forgé mon sens du détail et du travail bien fait.</p>
+            <div class="content">
+              <p>Cette première expérience a posé les bases de mon exigence : précision, sérieux et respect des lieux.</p>
             </div>
           </div>
         </div>
@@ -892,19 +860,19 @@
         <!-- PAGE 2 -->
         <div class="paper" id="p2">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Spécialisation locale à Bouchemaine</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Spécialisation locale à Bouchemaine</h3>
               <p>
-                Pendant 4 ans, je me suis spécialisé dans le <strong>nettoyage de vitres, volets et terrasses</strong>,
-                exclusivement à <strong>Bouchemaine</strong>. Ce travail de proximité m’a permis de développer une relation
-                de confiance avec mes clients et d’adapter mes interventions à leurs besoins réels.
+                Par la suite, je me suis spécialisé dans le <strong>nettoyage de vitres, volets et terrasses</strong>,
+                exclusivement à <strong>Bouchemaine</strong>, pendant 4 ans. Ce travail de proximité m’a permis de
+                développer une relation de confiance avec mes clients, en leur offrant un service soigné, ponctuel
+                et adapté à leurs besoins.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Cette proximité m’a permis de comprendre les attentes locales et d’y répondre avec précision.</p>
+            <div class="content">
+              <p>Cette proximité m’a permis de mieux comprendre les attentes locales et d’ajuster mes interventions.</p>
             </div>
           </div>
         </div>
@@ -912,19 +880,18 @@
         <!-- PAGE 3 -->
         <div class="paper" id="p3">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Création de L’Éclat d’Anjou</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Création de L’Éclat d’Anjou</h3>
               <p>
-                Fort de cette expérience, j’ai fondé <strong>L’Éclat d’Anjou</strong> avec une vision claire :
-                offrir un service de nettoyage haut de gamme, humain et local. Chaque intervention est réalisée
-                avec soin, discrétion et professionnalisme.
+                Fort de cette double expérience, j’ai fondé <strong>L’Éclat d’Anjou</strong> avec une idée simple :
+                proposer un service de nettoyage haut de gamme, local et humain. Minutieux, jamais en retard, je
+                m’engage à intervenir comme si c’était chez moi — avec respect, discrétion et professionnalisme.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Aujourd’hui, j’interviens avec la même exigence : valoriser votre habitat avec précision et transparence.</p>
+            <div class="content">
+              <p>Aujourd’hui, chaque intervention est pensée pour valoriser votre habitat, avec transparence et exigence.</p>
             </div>
           </div>
         </div>
@@ -943,52 +910,20 @@
 </section>
 
 <style>
-
-/* Apparition + ouverture automatique */
+/* Décalage pour éviter débordement */
 .book-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 80px;
-  animation: fadeIn 1s ease forwards;
-  opacity: 0;
-}
-
-.book.auto-open {
-  animation: openBook 1.3s ease forwards;
-  transform-origin: center;
-}
-
-/* Ombre sous le livre */
-.book-wrapper::after {
-  content: "";
-  width: 620px;
-  height: 45px;
-  background: radial-gradient(ellipse, rgba(0,0,0,0.22), transparent);
-  margin-top: -10px;
-  border-radius: 50%;
 }
 
 /* Livre */
 .book {
   position: relative;
-  width: 600px;
-  height: 410px;
+  width: 550px;
+  height: 380px;
   perspective: 2600px;
-}
-
-/* Marque-page minimaliste */
-.bookmark {
-  position: absolute;
-  top: 0;
-  right: 42px;
-  width: 5px;
-  height: 100%;
-  background: #4AA8D6;
-  border-radius: 3px;
-  z-index: 10;
-  opacity: 0.9;
-  box-shadow: 0 0 10px rgba(74,168,214,0.35);
 }
 
 /* Empilement */
@@ -1003,21 +938,27 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 1.15s cubic-bezier(.25,.8,.25,1), box-shadow 1s ease;
+  transition: transform 1s ease, box-shadow 1s ease;
   transform-origin: 25% center;
 }
 
-/* Tranche moderne */
+/* TRANCHE RÉALISTE */
 .paper::after {
   content: "";
   position: absolute;
-  left: -16px;
+  left: -18px;
   top: 0;
-  width: 16px;
+  width: 18px;
   height: 100%;
-  background: linear-gradient(to bottom, #fafafa, #eaeaea 40%, #fafafa);
-  border-right: 1px solid #dcdcdc;
-  box-shadow: inset -2px 0 4px rgba(0,0,0,0.06);
+  background: repeating-linear-gradient(
+    to bottom,
+    #e5e5e5 0px,
+    #f7f7f7 3px,
+    #e5e5e5 6px
+  );
+  border-right: 1px solid #d0d0d0;
+  box-shadow: inset -3px 0 6px rgba(0,0,0,0.15);
+  opacity: 1;
   pointer-events: none;
 }
 
@@ -1026,10 +967,10 @@
   content: "";
   position: absolute;
   top: 0;
-  right: -12px;
-  width: 70px;
+  right: -10px;
+  width: 60px;
   height: 100%;
-  background: linear-gradient(to left, rgba(0,0,0,0.16), transparent);
+  background: linear-gradient(to left, rgba(0,0,0,0.25), transparent);
   opacity: 0;
   transition: opacity 0.9s ease;
 }
@@ -1038,71 +979,55 @@
   opacity: 1;
 }
 
-/* Pages modernes */
+/* Pages */
 .front, .back {
   position: absolute;
   width: 100%;
   height: 100%;
   background: #ffffff;
-  padding: 48px;
-  border-radius: 10px;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  padding: 35px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   backface-visibility: hidden;
-  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
 }
 
 /* Courbure */
 .paper.flipped .front,
 .paper.flipped .back {
-  transform: skewY(-1.2deg);
-  box-shadow: 0 22px 40px rgba(0,0,0,0.18);
+  transform: skewY(-2deg);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.35);
 }
 
-/* Verso */
 .back {
   transform: rotateY(180deg);
 }
 
-/* COUVERTURE BLEU SIGNATURE MATE */
+/* Couverture bleu clair premium */
 .cover {
-  background: linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+  background: #5AB9EA;
   background-image:
-    url('https://www.transparenttextures.com/patterns/clean-gray-paper.png'),
-    linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+    url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'),
+    linear-gradient(135deg, #5AB9EA 0%, #4aa8d6 100%);
   color: #ffffff;
   text-align: center;
-  border-radius: 12px;
-  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 10px;
+  border: 3px solid #3c8fb8;
   box-shadow:
-    inset 0 0 18px rgba(0,0,0,0.12),
-    0 14px 32px rgba(0,0,0,0.22);
-  position: relative;
-  overflow: hidden;
+    inset 0 0 25px rgba(0,0,0,0.25),
+    0 10px 25px rgba(0,0,0,0.35);
 }
 
-/* Lumière glissante premium */
-.cover-light {
-  position: absolute;
-  top: 0;
-  left: -120%;
-  width: 80%;
-  height: 100%;
-  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.16) 50%, transparent 100%);
-  transform: skewX(-20deg);
-  animation: slideLight 6s infinite ease-in-out;
-}
-
-/* Couverture arrière */
 .cover-inner {
+  background: #5AB9EA;
   background-image:
-    url('https://www.transparenttextures.com/patterns/clean-gray-paper.png'),
-    linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+    url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'),
+    linear-gradient(135deg, #5AB9EA 0%, #4aa8d6 100%);
   color: #ffffff;
-  border-radius: 12px;
-  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 10px;
+  border: 3px solid #3c8fb8;
   box-shadow:
-    inset 0 0 18px rgba(0,0,0,0.12),
-    0 14px 32px rgba(0,0,0,0.22);
+    inset 0 0 25px rgba(0,0,0,0.25),
+    0 10px 25px rgba(0,0,0,0.35);
 }
 
 /* Verso */
@@ -1112,32 +1037,20 @@
 
 /* Rotation */
 .paper.flipped {
-  transform: rotateY(-180deg) skewY(-1.2deg);
+  transform: rotateY(-180deg) skewY(-2deg);
 }
 
-/* Texte moderne */
-.modern-text h3.page-title {
-  font-size: 1.65rem;
-  margin-bottom: 10px;
+/* Texte */
+.content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
   color: #0a192f;
-  font-weight: 700;
-  letter-spacing: -0.4px;
 }
 
-.modern-text p {
-  font-size: 1.08rem;
-  line-height: 1.75rem;
-  color: #475569;
-  font-weight: 400;
-}
-
-/* Séparateur premium */
-.divider {
-  width: 60px;
-  height: 3px;
-  background: #5AB9EA;
-  border-radius: 3px;
-  margin: 12px 0 22px 0;
+.content p {
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+  color: #334155;
 }
 
 /* Boutons */
@@ -1156,31 +1069,11 @@ button {
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 button:hover {
-  background: #4AA8D6;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  background: #4aa8d6;
 }
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideLight {
-  0% { left: -120%; }
-  50% { left: 120%; }
-  100% { left: -120%; }
-}
-
-@keyframes openBook {
-  0% { transform: rotateX(14deg) scale(0.96); opacity: 0; }
-  100% { transform: rotateX(0deg) scale(1); opacity: 1; }
-}
-
 </style>
 
 <!-- SON DE PAGE -->
@@ -1461,211 +1354,90 @@ a[href="#experience"]:hover {
   </div>
 </section>
 
-<!-- Section Galerie --> <section id="galerie" class="py-24 bg-gradient-to-br from-slate-50 to-white dark:from-[#0d213a] dark:to-[#112e4f]">
-    
-    <!-- Titre --> <div class="text-center mb-16" data-aos="fade-up"> <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight text-[#0a192f] dark:text-white"> Nos <span class="text-[#5AB9EA]">réalisations</span> </h2> <p class="mt-4 text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed"> Avant / Après, vérandas, vitres, volets, terrasses… Découvrez la qualité de notre travail en images. </p> </div>
+<!-- Section Galerie -->
+<section id="galerie" class="py-24 bg-gradient-to-br from-slate-50 to-white dark:from-[#0d213a] dark:to-[#112e4f]">
+  <div class="max-w-6xl mx-auto px-4">
 
-<!-- Galerie -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" data-aos="zoom-in">
-
-  <!-- CARD PRO AVANT/APRES -->
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image5.jpg" class="ba-img before">
-    <img src="image4.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
+    <!-- Titre -->
+    <div class="text-center mb-16" data-aos="fade-up">
+      <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight text-[#0a192f] dark:text-white">
+        Nos <span class="text-[#5AB9EA]">réalisations</span>
+      </h2>
+      <p class="mt-4 text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        Avant / Après, vérandas, vitres, volets, terrasses… Découvrez bientôt la qualité de notre travail en images.
+      </p>
     </div>
+
+    <!-- Galerie responsive -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" data-aos="zoom-in">
+      
+      <!-- Carte image -->
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image1.png" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image2.png" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image3.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image4.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image5.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+<!-- Carte premium "Lumière Rasante + Ligne Animée" -->
+<div class="relative overflow-hidden rounded-xl shadow-xl h-64 group bg-gradient-to-br from-[#dbe7f3] to-[#c7d6e6]">
+
+  <!-- Effet verre dépoli -->
+  <div class="absolute inset-0 backdrop-blur-lg bg-white/10"></div>
+
+  <!-- Halos bleus premium -->
+  <div class="absolute -top-20 -right-10 w-56 h-56 bg-[#5AB9EA]/25 rounded-full blur-3xl"></div>
+  <div class="absolute -bottom-24 -left-16 w-64 h-64 bg-[#5AB9EA]/15 rounded-full blur-3xl"></div>
+
+  <!-- Lumière rasante diagonale -->
+  <div class="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/15 to-white/0 rotate-12 opacity-70"></div>
+
+  <!-- Motif micro-lignes -->
+  <div class="absolute inset-0 opacity-[0.08] bg-[linear-gradient(135deg,rgba(90,185,234,0.3)_1px,transparent_1px)] bg-[length:22px_22px]"></div>
+
+  <!-- Ligne de lumière animée -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent translate-x-[-100%] animate-[slide_3s_linear_infinite]"></div>
   </div>
 
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image6.jpg" class="ba-img before">
-    <img src="image7.jpg" class="ba-img after">
+  <!-- Animation keyframes -->
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+  </style>
 
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
+  <!-- Contenu -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+
+    <!-- Icône minimaliste premium -->
+    <div class="w-14 h-14 rounded-full border border-[#5AB9EA]/60 flex items-center justify-center backdrop-blur-sm bg-white/10 group-hover:bg-white/20 transition">
+      <div class="w-2.5 h-2.5 bg-[#5AB9EA] rounded-full animate-pulse"></div>
     </div>
-  </div>
 
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image8.jpg" class="ba-img before">
-    <img src="image9.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image11.jpg" class="ba-img before">
-    <img src="image10.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image12.jpg" class="ba-img before">
-    <img src="image13.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image1.jpg" class="ba-img before">
-    <img src="image2.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image30.jpg" class="ba-img before">
-    <img src="image14.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image15.jpg" class="ba-img before">
-    <img src="image16.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image17.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image18.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image19.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image20.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image35.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image31.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image32.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image33.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image34.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <!-- Carte premium -->
-  <div class="relative overflow-hidden rounded-xl shadow-xl h-64 group bg-gradient-to-br from-[#dbe7f3] to-[#c7d6e6]">
-    <div class="absolute inset-0 backdrop-blur-lg bg-white/10"></div>
-    <div class="absolute -top-20 -right-10 w-56 h-56 bg-[#5AB9EA]/25 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-24 -left-16 w-64 h-64 bg-[#5AB9EA]/15 rounded-full blur-3xl"></div>
-    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-      <span class="mt-4 text-sm text-[#2b4865] italic tracking-wide">Galerie en évolution</span>
-    </div>
+    <!-- Texte premium -->
+    <span class="mt-4 text-sm text-[#2b4865] dark:text-[#a3c4f3] italic tracking-wide">
+      Galerie en évolution
+    </span>
   </div>
 
 </div>
-
-<!-- CSS PRO CLEAN -->
-<style>
-.ba-proclean{
-  position:relative;
-  overflow:hidden;
-  cursor:pointer;
-  background:#000;
-}
-
-.ba-img{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  transition:clip-path .9s cubic-bezier(.77,0,.18,1);
-}
-
-
-
-/* image avant */
-.ba-img.before{
-  z-index:1;
-}
-
-/* image après */
-.ba-img.after{
-  z-index:2;
-  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-}
-
-/* reveal net */
-.ba-proclean:hover .ba-img.after{
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
-
-/* tags */
-.ba-tags{
-  position:absolute;
-  top:12px;
-  left:12px;
-  right:12px;
-  display:flex;
-  justify-content:space-between;
-  z-index:5;
-  pointer-events:none;
-}
-
-.tag{
-  background:rgba(0,0,0,0.6);
-  color:white;
-  font-size:11px;
-  letter-spacing:1px;
-  padding:5px 12px;
-  border-radius:999px;
-  backdrop-blur:6px;
-}
-</style>
-
-
+  </div>
+</section>
 
 <!-- Flèche vers la section "Cartes" -->
 <section class="bg-white py-8">
@@ -1693,13 +1465,13 @@ a[href="#experience"]:hover {
 
     <!-- Sous-titre SEO -->
     <h3 class="text-2xl font-semibold mb-4 text-[#1f2937] dark:text-slate-200" data-aos="fade-up" data-aos-delay="50">
-      Intervention dans tout le Maine‑et‑Loire (49) et Loire Atlantique (44)
+      Intervention dans tout le Maine‑et‑Loire (49)
     </h3>
 
     <!-- Texte descriptif -->
     <p class="text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="100">
       Je me déplace dans tout le Maine‑et‑Loire et ses alentours : <br class="hidden md:inline" />
-      <span class="font-medium text-[#0a192f] dark:text-white">La Cornuaille, Segré, Angers, Ancenis, Oudon, Le Cellier,  Cholet, Candé, Chalonnes-sur-Loire…</span>
+      <span class="font-medium text-[#0a192f] dark:text-white">La Cornuaille, Segré, Angers, Cholet, Candé, Chalonnes-sur-Loire…</span>
     </p>
 
     <p class="text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="150">
@@ -1715,7 +1487,6 @@ a[href="#experience"]:hover {
       <a href="/cande.html" class="hover:underline">Candé</a>
       <a href="/val-erdre-auxence.html" class="hover:underline">Val d’Erdre‑Auxence</a>
       <a href="/becon-les-granits.html" class="hover:underline">Bécon‑les‑Granits</a>
-            <a href="/ancenis.html" class="hover:underline">Ancenis</a>
     </div>
 
     <!-- Carte Google Maps -->
@@ -2170,15 +1941,27 @@ phoneBtn.addEventListener('mouseenter', () => {
 </script>
 
   <!-- Scripts -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
-<script src="js/main.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
 
-<!-- ===== BOUTON DEVIS ULTRA DESIGN ===== -->
-
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Bouton devis ultra design avec RGPD</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500&display=swap');
 
-/* Bouton devis */
+body {
+  margin:0;
+  font-family:'Roboto',sans-serif;
+  background:#f4f7fb;
+  overflow:hidden;
+}
+
+/* -----------------------
+   BOUTON DEVIS ULTRA DESIGN
+------------------------ */
 #floating-devis {
   position:fixed;
   bottom:30px;
@@ -2195,13 +1978,14 @@ phoneBtn.addEventListener('mouseenter', () => {
   border-radius:50px;
   background: linear-gradient(135deg,#70e0ff,#50d4ff);
   text-align:center;
-  font-weight:500;
-  font-size:18px;
+  font-weight:500; /* moins gras, plus pro */
+  font-size:18px;  /* légèrement réduit pour élégance */
   color:#111;
   text-decoration:none;
   cursor:pointer;
   box-shadow: inset 0 -2px 6px rgba(0,0,0,0.08),0 6px 20px rgba(0,0,0,0.15);
   font-family:'Montserrat',sans-serif;
+  text-transform:none; /* pas de majuscules forcées */
   letter-spacing:0.8px;
   transition: all 0.3s ease;
   overflow:hidden;
@@ -2217,6 +2001,7 @@ body.cookies-active #devis-btn {
   box-shadow: inset 0 -2px 6px rgba(0,0,0,0.08), 0 14px 36px rgba(0,0,0,0.22), 0 0 20px rgba(94,212,255,0.35);
 }
 
+/* Légère lumière sur texte au passage de la raclette */
 #devis-btn span {
   position:absolute;
   inset:0;
@@ -2227,6 +2012,7 @@ body.cookies-active #devis-btn {
   z-index:1;
 }
 
+/* Canvas pour animations mousse/gouttes */
 #canvas-overlay {
   position:absolute;
   top:0;
@@ -2237,8 +2023,9 @@ body.cookies-active #devis-btn {
   z-index:2;
 }
 
-/* ===== BANDEAU RGPD ===== */
-
+/* -----------------------
+   BANDEAU RGPD MODERNE
+------------------------ */
 #cookie-banner {
   position:fixed;
   bottom:0;
@@ -2301,9 +2088,10 @@ body.cookies-active #devis-btn {
   background:#e0e0e0;
 }
 </style>
+</head>
+<body>
 
-<!-- ===== HTML BOUTON + RGPD ===== -->
-
+<!-- Bouton devis -->
 <div id="floating-devis">
   <a href="#contact" id="devis-btn">
     <span></span>
@@ -2312,6 +2100,7 @@ body.cookies-active #devis-btn {
   </a>
 </div>
 
+<!-- Bandeau RGPD -->
 <div id="cookie-banner">
   <div style="flex:1; min-width:220px;">
     Ce site utilise des cookies pour améliorer votre expérience et mesurer l’audience.
@@ -2323,10 +2112,10 @@ body.cookies-active #devis-btn {
   </div>
 </div>
 
-<!-- ===== SCRIPT BOUTON + RGPD ===== -->
-
 <script>
+// ---------------------------
 // RGPD
+// ---------------------------
 const banner = document.getElementById('cookie-banner');
 const body = document.body;
 const btn = document.getElementById('devis-btn');
@@ -2337,7 +2126,7 @@ function fermerBandeau() {
   banner.classList.add('fade-out');
   setTimeout(()=>{
     banner.style.display='none';
-    body.classList.remove('cookies-active');
+    body.classList.remove('cookies-active'); // bouton activé
   },500);
 }
 
@@ -2353,7 +2142,9 @@ document.getElementById('btn-refuser-cookies').addEventListener('click', e=>{
   fermerBandeau();
 });
 
-// Animation raclette / mousse / gouttes
+// ---------------------------
+// Canvas Animation raclette / mousse / gouttes / lumière
+// ---------------------------
 const canvas = document.getElementById('canvas-overlay');
 const ctx = canvas.getContext('2d');
 canvas.width = btn.offsetWidth;
@@ -2424,6 +2215,7 @@ function runAnimation(){
   function animate(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
 
+    // Raclette
     ctx.fillStyle = "#e5e7eb";
     ctx.shadowColor = "rgba(0,0,0,0.2)";
     ctx.shadowBlur = 3;
@@ -2431,8 +2223,10 @@ function runAnimation(){
 
     racletteX += 2;
 
+    // Légère lumière sur texte
     span.style.transform = `translateX(${racletteX - 150}px)`;
 
+    // Pousser mousse et créer gouttes
     mousses.forEach(m=>{
       if(m.x < racletteX + 18){
         m.push(2.0);
@@ -2461,115 +2255,126 @@ function runAnimation(){
 
 runAnimation();
 </script>
+</body>
+</html>
 
-<!-- =============================== -->
-<!-- COMPTEUR SECRET + FAQ PREMIUM   -->
-<!-- =============================== -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Compteur + FAQ Premium</title>
 
-<style>
-  /* COMPTEUR SECRET */
-  #compteur-secret {
-    display: none;
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-  }
+  <style>
+    /* ------------------------------ */
+    /* COMPTEUR SECRET (inchangé)     */
+    /* ------------------------------ */
+    #compteur-secret {
+      display: none;
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
 
-  /* BOUTON FAQ PREMIUM */
-  #faq-toggle-label {
-    all: unset;
-    position: fixed;
-    bottom: 24px;
-    left: 24px;
-    background: linear-gradient(135deg, #3B82F6, #2563EB);
-    color: white;
-    padding: 12px 20px;
-    border-radius: 999px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
-    z-index: 9999;
-    transition: all 0.25s ease;
-  }
+    /* ------------------------------ */
+    /* BOUTON FAQ PREMIUM             */
+    /* ------------------------------ */
+    #faq-toggle-label {
+      all: unset;
+      position: fixed;
+      bottom: 24px;
+      left: 24px;
+      background: linear-gradient(135deg, #3B82F6, #2563EB);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 999px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+      z-index: 9999;
+      transition: all 0.25s ease;
+    }
 
-  #faq-toggle-label:hover {
-    background: linear-gradient(135deg, #2563EB, #1D4ED8);
-    transform: translateY(-2px);
-    box-shadow: 0 12px 30px rgba(0,0,0,0.35);
-  }
+    #faq-toggle-label:hover {
+      background: linear-gradient(135deg, #2563EB, #1D4ED8);
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+    }
 
-  #faq-toggle-label svg {
-    width: 22px;
-    height: 22px;
-    flex-shrink: 0;
-    stroke-width: 2;
-  }
+    #faq-toggle-label svg {
+      width: 22px;
+      height: 22px;
+      flex-shrink: 0;
+      stroke-width: 2;
+    }
 
-  #faq-toggle {
-    display: none;
-  }
+    #faq-toggle {
+      display: none;
+    }
 
-  /* PANEL FAQ PREMIUM */
-  #faq-panel {
-    position: fixed;
-    bottom: 90px;
-    left: 24px;
-    width: 340px;
-    max-height: 70vh;
-    overflow-y: auto;
-    background: white;
-    border-radius: 16px;
-    padding: 24px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 12px 35px rgba(0,0,0,0.18);
-    opacity: 0;
-    transform: translateY(10px) scale(0.97);
-    pointer-events: none;
-    transition: all 0.25s ease;
-    font-family: sans-serif;
-    z-index: 9998;
-  }
+    /* ------------------------------ */
+    /* PANEL FAQ PREMIUM              */
+    /* ------------------------------ */
+    #faq-panel {
+      position: fixed;
+      bottom: 90px;
+      left: 24px;
+      width: 340px;
+      max-height: 70vh;
+      overflow-y: auto;
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 12px 35px rgba(0,0,0,0.18);
+      opacity: 0;
+      transform: translateY(10px) scale(0.97);
+      pointer-events: none;
+      transition: all 0.25s ease;
+      font-family: sans-serif;
+      z-index: 9998;
+    }
 
-  #faq-toggle:checked + #faq-toggle-label + #faq-panel {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-    pointer-events: auto;
-  }
+    #faq-toggle:checked + #faq-toggle-label + #faq-panel {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      pointer-events: auto;
+    }
 
-  #faq-panel h3 {
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 18px;
-    color: #111827;
-  }
+    #faq-panel h3 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 18px;
+      color: #111827;
+    }
 
-  #faq-panel details {
-    border-bottom: 1px solid #e5e7eb;
-    padding-bottom: 12px;
-    margin-bottom: 14px;
-  }
+    #faq-panel details {
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
 
-  #faq-panel summary {
-    cursor: pointer;
-    font-weight: 600;
-    color: #1f2937;
-    font-size: 15px;
-  }
+    #faq-panel summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #1f2937;
+      font-size: 15px;
+    }
 
-  #faq-panel p {
-    margin-top: 6px;
-    color: #4b5563;
-    font-size: 14px;
-    line-height: 1.45;
-  }
-</style>
+    #faq-panel p {
+      margin-top: 6px;
+      color: #4b5563;
+      font-size: 14px;
+      line-height: 1.45;
+    }
+  </style>
+</head>
 
-<section>
+<body>
 
   <h1>Compteur</h1>
 
@@ -2608,9 +2413,9 @@ runAnimation();
       });
   </script>
 
-
+  <!-- ------------------------------ -->
   <!-- WIDGET FAQ PREMIUM             -->
-
+  <!-- ------------------------------ -->
 
   <input type="checkbox" id="faq-toggle">
 
@@ -2653,8 +2458,8 @@ runAnimation();
     </details>
   </div>
 
-</section>
-
+</body>
+</html>
 <!-- SCRIPT BURGER + FERMETURE AUTO -->
 <script>
 const burger = document.getElementById("burger");
@@ -2672,8 +2477,70 @@ document.querySelectorAll(".nav-link-mobile").forEach(link => {
   });
 });
 </script>
+</body>
+</html>
 
+<!-- SECTION SEO LONG (visible, design premium) -->
+<section class="pt-32 pb-20 max-w-5xl mx-auto px-4">
 
+  <!-- Titre principal (H2 car le H1 est déjà en haut de page) -->
+  <h2 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
+    Nettoyage de vitres à Bécon-les-Granits
+  </h2>
 
+  <!-- Intro premium -->
+  <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 mb-10">
+    À Bécon-les-Granits, L’Éclat d’Anjou propose un service de nettoyage de vitres haut de gamme,
+    conçu pour répondre aux attentes des particuliers comme des professionnels. Chaque intervention
+    est réalisée avec précision, discrétion et un souci constant du détail afin d’obtenir un résultat
+    parfaitement transparent, durable et sans aucune trace.
+  </p>
 
+  <!-- Bloc "Pourquoi nous choisir" -->
+  <div class="bg-white dark:bg-slate-800 shadow-sm rounded-xl p-8 mb-12">
+    <h3 class="text-2xl font-semibold mb-4 text-slate-900 dark:text-white">
+      Pourquoi choisir L’Éclat d’Anjou à Bécon-les-Granits ?
+    </h3>
 
+    <ul class="space-y-3 text-slate-700 dark:text-slate-300 leading-relaxed">
+      <li class="flex items-start gap-2">
+        <span class="text-blue-600 font-bold">•</span>
+        Nettoyage soigné, précis et adapté à chaque type de vitrage
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-600 font-bold">•</span>
+        Résultat premium : vitres impeccables, sans traces ni reflets indésirables
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-600 font-bold">•</span>
+        Matériel professionnel pour vérandas, verrières, baies vitrées et vitrines
+      </li>
+      <li class="flex items-start gap-2">
+        <span class="text-blue-600 font-bold">•</span>
+        Intervention discrète, ponctuelle et respectueuse de votre espace
+      </li>
+    </ul>
+  </div>
+
+  <!-- Zones d'intervention -->
+  <h3 class="text-2xl font-semibold mb-3 text-slate-900 dark:text-white">
+    Nos interventions à Bécon-les-Granits
+  </h3>
+
+  <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-10">
+    Nous intervenons dans l’ensemble de Bécon-les-Granits et des communes voisines : Le Louroux-Béconnais,
+    Saint-Clément-de-la-Place, La Pouëze, Val d’Erdre-Auxence et La Cornuaille. Chaque déplacement est optimisé
+    pour garantir un service réactif, soigné et parfaitement exécuté, que ce soit pour une intervention ponctuelle
+    ou un entretien régulier.
+  </p>
+
+  <!-- CTA -->
+  <a href="contact.html"
+     class="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 transition text-white font-medium rounded-lg shadow">
+    Demander un devis
+  </a>
+
+</section>
+
+</body>
+</html>

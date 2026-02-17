@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Déclaration du sitemap
+Sitemap: https://leclatdanjou.fr/sitemap.xml

@@ -8,18 +8,16 @@
   <!-- FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-  <!-- TITLE SEO OPTIMISÉ (NE CIBLE PLUS ANGERS) -->
-  <title>Nettoyage de vitres professionnel – Service premium pour particuliers | L’Éclat d’Anjou</title>
-  <link rel="canonical" href="https://leclatdanjou.fr/" />
+  <!-- TITLE SEO OPTIMISÉ POUR MAINE-ET-LOIRE -->
+  <title>Laveur de vitres dans le Maine-et-Loire – Nettoyage de vitres pour particuliers | L’Éclat d’Anjou</title>
+  <link rel="canonical" href="https://leclatdanjou.fr/maine-et-loire.html">
 
-  <!-- META DESCRIPTION OPTIMISÉE (GÉNÉRALE, NON LOCALE) -->
-  <meta name="description" content="Service professionnel de nettoyage de vitres pour particuliers et entreprises. Résultat impeccable, intervention discrète et travail soigné dans tout le Maine-et-Loire.">
+  <!-- META DESCRIPTION OPTIMISÉE POUR MAINE-ET-LOIRE -->
+  <meta name="description" content="Nettoyage de vitres professionnel dans tout le Maine-et-Loire. Service soigné, ponctuel et discret pour particuliers et entreprises. L’Éclat d’Anjou : votre expert local.">
 
-  <!-- Scripts -->
-  <!-- ⚠️ ReCaptcha = petit blocage JS (reflow + TBT) mais obligatoire -->
+ <!-- Scripts -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-  <!-- ⚠️ compteur.php = bloque le chemin critique si exécuté trop tôt -->
   <script>
     if (!sessionStorage.getItem("compteur-envoyé")) {
       fetch("compteur.php");
@@ -40,45 +38,29 @@
   </script>
 
   <!-- Fonts & Tailwind -->
-  <!-- ✔️ préconnect = très bon -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
-<script>
-  tailwind.config = {
-    corePlugins: {
-      preflight: false
-    },
-    darkMode: false,
-    theme: {
-      extend: {
-        fontFamily: {
-          sans: ['Inter', 'Montserrat', 'sans-serif'],
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: false,
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Montserrat', 'sans-serif'],
+          }
         }
       }
-    }
-  }
-</script>
-
-<!-- ⚠️ Tailwind CDN = 180 ms de blocage + compilation JS -->
-<script src="https://cdn.tailwindcss.com"></script>
+    };
+  </script>
 
   <!-- Styles -->
-  <!-- ⚠️ AOS.css = petit blocage CSS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-
-  <!-- ⚠️ custom.css = blocage CSS (léger) -->
   <link rel="stylesheet" href="css/custom.css" />
-
-  <!-- ⚠️ output.css = blocage CSS (léger) -->
-  <link rel="stylesheet" href="output.css" />
-
-  <!-- ✔️ defer = parfait -->
+  <link rel="stylesheet" href="dist/output.css" />
   <script src="main.js" defer></script>
-
-  <!-- ✔️ preload image = excellent pour LCP -->
-  <link rel="preload" as="image" href="hero.jpg" fetchpriority="high">
 
   <!-- Données structurées LocalBusiness -->
   <script type="application/ld+json">
@@ -440,7 +422,7 @@
 </header>
 <section id="accueil" class="hero-section" style="position: relative;">
 
-<img src="hero.jpg" alt="..." fetchpriority="high">
+  <img src="hero.jpg" alt="Image d'accueil" class="hero">
 
   <!-- POINT 1 -->
   <div class="radar-point" style="top:48%; left:55%;">
@@ -830,7 +812,9 @@
   animation: lineFlow 3s linear infinite;
 }
 </style>
-
+              </p>
+            </div>
+          </div>
 <section id="experience" class="py-20 bg-white dark:bg-[#0a192f]">
   <div class="max-w-5xl mx-auto px-4 sm:px-6">
 
@@ -844,26 +828,22 @@
       </p>
     </div>
 
-    <!-- LIVRE PREMIUM -->
+    <!-- LIVRE -->
     <div class="book-wrapper">
 
-      <div class="book auto-open">
-
-        <!-- MARQUE-PAGE MINIMALISTE -->
-        <div class="bookmark"></div>
+      <div class="book">
 
         <!-- COUVERTURE -->
         <div class="paper" id="p0">
           <div class="front cover">
-            <div class="cover-light"></div>
-            <div class="content cover-content">
+            <div class="content">
               <h1>L’Éclat d’Anjou</h1>
               <h3>Mon parcours professionnel</h3>
-              <p class="cover-sub">Cliquer sur “Page suivante” pour ouvrir le livre</p>
+              <p>Cliquer sur “Page suivante” pour ouvrir le livre</p>
             </div>
           </div>
           <div class="back cover-inner">
-            <div class="content cover-content">
+            <div class="content">
               <h3>Bienvenue</h3>
               <p>Ce livre retrace mon parcours professionnel, de mes débuts à la création de L’Éclat d’Anjou.</p>
             </div>
@@ -873,18 +853,18 @@
         <!-- PAGE 1 -->
         <div class="paper" id="p1">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Débuts dans le nettoyage industriel</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Débuts dans le nettoyage industriel</h3>
               <p>
                 J’ai commencé ma carrière dans le <strong>nettoyage industriel</strong>, où j’ai exercé pendant 5 ans.
-                Cette période m’a appris la rigueur, la précision et l’importance d’un travail soigné, même dans les environnements les plus exigeants.
+                Cette période m’a permis d’acquérir une solide rigueur professionnelle, une maîtrise des techniques
+                spécifiques et le sens du travail bien fait, même dans les environnements les plus exigeants.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Cette première expérience a forgé mon sens du détail et du travail bien fait.</p>
+            <div class="content">
+              <p>Cette première expérience a posé les bases de mon exigence : précision, sérieux et respect des lieux.</p>
             </div>
           </div>
         </div>
@@ -892,19 +872,19 @@
         <!-- PAGE 2 -->
         <div class="paper" id="p2">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Spécialisation locale à Bouchemaine</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Spécialisation locale à Bouchemaine</h3>
               <p>
-                Pendant 4 ans, je me suis spécialisé dans le <strong>nettoyage de vitres, volets et terrasses</strong>,
-                exclusivement à <strong>Bouchemaine</strong>. Ce travail de proximité m’a permis de développer une relation
-                de confiance avec mes clients et d’adapter mes interventions à leurs besoins réels.
+                Par la suite, je me suis spécialisé dans le <strong>nettoyage de vitres, volets et terrasses</strong>,
+                exclusivement à <strong>Bouchemaine</strong>, pendant 4 ans. Ce travail de proximité m’a permis de
+                développer une relation de confiance avec mes clients, en leur offrant un service soigné, ponctuel
+                et adapté à leurs besoins.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Cette proximité m’a permis de comprendre les attentes locales et d’y répondre avec précision.</p>
+            <div class="content">
+              <p>Cette proximité m’a permis de mieux comprendre les attentes locales et d’ajuster mes interventions.</p>
             </div>
           </div>
         </div>
@@ -912,19 +892,18 @@
         <!-- PAGE 3 -->
         <div class="paper" id="p3">
           <div class="front page">
-            <div class="content modern-text">
-              <h3 class="page-title">Création de L’Éclat d’Anjou</h3>
-              <div class="divider"></div>
+            <div class="content">
+              <h3>Création de L’Éclat d’Anjou</h3>
               <p>
-                Fort de cette expérience, j’ai fondé <strong>L’Éclat d’Anjou</strong> avec une vision claire :
-                offrir un service de nettoyage haut de gamme, humain et local. Chaque intervention est réalisée
-                avec soin, discrétion et professionnalisme.
+                Fort de cette double expérience, j’ai fondé <strong>L’Éclat d’Anjou</strong> avec une idée simple :
+                proposer un service de nettoyage haut de gamme, local et humain. Minutieux, jamais en retard, je
+                m’engage à intervenir comme si c’était chez moi — avec respect, discrétion et professionnalisme.
               </p>
             </div>
           </div>
           <div class="back page page-back">
-            <div class="content modern-text">
-              <p>Aujourd’hui, j’interviens avec la même exigence : valoriser votre habitat avec précision et transparence.</p>
+            <div class="content">
+              <p>Aujourd’hui, chaque intervention est pensée pour valoriser votre habitat, avec transparence et exigence.</p>
             </div>
           </div>
         </div>
@@ -943,52 +922,20 @@
 </section>
 
 <style>
-
-/* Apparition + ouverture automatique */
+/* Décalage pour éviter débordement */
 .book-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-left: 80px;
-  animation: fadeIn 1s ease forwards;
-  opacity: 0;
-}
-
-.book.auto-open {
-  animation: openBook 1.3s ease forwards;
-  transform-origin: center;
-}
-
-/* Ombre sous le livre */
-.book-wrapper::after {
-  content: "";
-  width: 620px;
-  height: 45px;
-  background: radial-gradient(ellipse, rgba(0,0,0,0.22), transparent);
-  margin-top: -10px;
-  border-radius: 50%;
 }
 
 /* Livre */
 .book {
   position: relative;
-  width: 600px;
-  height: 410px;
+  width: 550px;
+  height: 380px;
   perspective: 2600px;
-}
-
-/* Marque-page minimaliste */
-.bookmark {
-  position: absolute;
-  top: 0;
-  right: 42px;
-  width: 5px;
-  height: 100%;
-  background: #4AA8D6;
-  border-radius: 3px;
-  z-index: 10;
-  opacity: 0.9;
-  box-shadow: 0 0 10px rgba(74,168,214,0.35);
 }
 
 /* Empilement */
@@ -1003,21 +950,27 @@
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
-  transition: transform 1.15s cubic-bezier(.25,.8,.25,1), box-shadow 1s ease;
+  transition: transform 1s ease, box-shadow 1s ease;
   transform-origin: 25% center;
 }
 
-/* Tranche moderne */
+/* TRANCHE RÉALISTE */
 .paper::after {
   content: "";
   position: absolute;
-  left: -16px;
+  left: -18px;
   top: 0;
-  width: 16px;
+  width: 18px;
   height: 100%;
-  background: linear-gradient(to bottom, #fafafa, #eaeaea 40%, #fafafa);
-  border-right: 1px solid #dcdcdc;
-  box-shadow: inset -2px 0 4px rgba(0,0,0,0.06);
+  background: repeating-linear-gradient(
+    to bottom,
+    #e5e5e5 0px,
+    #f7f7f7 3px,
+    #e5e5e5 6px
+  );
+  border-right: 1px solid #d0d0d0;
+  box-shadow: inset -3px 0 6px rgba(0,0,0,0.15);
+  opacity: 1;
   pointer-events: none;
 }
 
@@ -1026,10 +979,10 @@
   content: "";
   position: absolute;
   top: 0;
-  right: -12px;
-  width: 70px;
+  right: -10px;
+  width: 60px;
   height: 100%;
-  background: linear-gradient(to left, rgba(0,0,0,0.16), transparent);
+  background: linear-gradient(to left, rgba(0,0,0,0.25), transparent);
   opacity: 0;
   transition: opacity 0.9s ease;
 }
@@ -1038,71 +991,55 @@
   opacity: 1;
 }
 
-/* Pages modernes */
+/* Pages */
 .front, .back {
   position: absolute;
   width: 100%;
   height: 100%;
   background: #ffffff;
-  padding: 48px;
-  border-radius: 10px;
-  box-shadow: 0 8px 22px rgba(0,0,0,0.08);
+  padding: 35px;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   backface-visibility: hidden;
-  background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
 }
 
 /* Courbure */
 .paper.flipped .front,
 .paper.flipped .back {
-  transform: skewY(-1.2deg);
-  box-shadow: 0 22px 40px rgba(0,0,0,0.18);
+  transform: skewY(-2deg);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.35);
 }
 
-/* Verso */
 .back {
   transform: rotateY(180deg);
 }
 
-/* COUVERTURE BLEU SIGNATURE MATE */
+/* Couverture bleu clair premium */
 .cover {
-  background: linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+  background: #5AB9EA;
   background-image:
-    url('https://www.transparenttextures.com/patterns/clean-gray-paper.png'),
-    linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+    url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'),
+    linear-gradient(135deg, #5AB9EA 0%, #4aa8d6 100%);
   color: #ffffff;
   text-align: center;
-  border-radius: 12px;
-  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 10px;
+  border: 3px solid #3c8fb8;
   box-shadow:
-    inset 0 0 18px rgba(0,0,0,0.12),
-    0 14px 32px rgba(0,0,0,0.22);
-  position: relative;
-  overflow: hidden;
+    inset 0 0 25px rgba(0,0,0,0.25),
+    0 10px 25px rgba(0,0,0,0.35);
 }
 
-/* Lumière glissante premium */
-.cover-light {
-  position: absolute;
-  top: 0;
-  left: -120%;
-  width: 80%;
-  height: 100%;
-  background: linear-gradient(120deg, transparent 0%, rgba(255,255,255,0.16) 50%, transparent 100%);
-  transform: skewX(-20deg);
-  animation: slideLight 6s infinite ease-in-out;
-}
-
-/* Couverture arrière */
 .cover-inner {
+  background: #5AB9EA;
   background-image:
-    url('https://www.transparenttextures.com/patterns/clean-gray-paper.png'),
-    linear-gradient(135deg, #5AB9EA 0%, #4AA8D6 100%);
+    url('https://www.transparenttextures.com/patterns/fabric-of-squares.png'),
+    linear-gradient(135deg, #5AB9EA 0%, #4aa8d6 100%);
   color: #ffffff;
-  border-radius: 12px;
-  border: 2px solid rgba(255,255,255,0.25);
+  border-radius: 10px;
+  border: 3px solid #3c8fb8;
   box-shadow:
-    inset 0 0 18px rgba(0,0,0,0.12),
-    0 14px 32px rgba(0,0,0,0.22);
+    inset 0 0 25px rgba(0,0,0,0.25),
+    0 10px 25px rgba(0,0,0,0.35);
 }
 
 /* Verso */
@@ -1112,32 +1049,20 @@
 
 /* Rotation */
 .paper.flipped {
-  transform: rotateY(-180deg) skewY(-1.2deg);
+  transform: rotateY(-180deg) skewY(-2deg);
 }
 
-/* Texte moderne */
-.modern-text h3.page-title {
-  font-size: 1.65rem;
-  margin-bottom: 10px;
+/* Texte */
+.content h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
   color: #0a192f;
-  font-weight: 700;
-  letter-spacing: -0.4px;
 }
 
-.modern-text p {
-  font-size: 1.08rem;
-  line-height: 1.75rem;
-  color: #475569;
-  font-weight: 400;
-}
-
-/* Séparateur premium */
-.divider {
-  width: 60px;
-  height: 3px;
-  background: #5AB9EA;
-  border-radius: 3px;
-  margin: 12px 0 22px 0;
+.content p {
+  font-size: 1.05rem;
+  line-height: 1.6rem;
+  color: #334155;
 }
 
 /* Boutons */
@@ -1156,31 +1081,11 @@ button {
   cursor: pointer;
   font-weight: bold;
   transition: 0.3s;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 button:hover {
-  background: #4AA8D6;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  background: #4aa8d6;
 }
-
-/* Animations */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-@keyframes slideLight {
-  0% { left: -120%; }
-  50% { left: 120%; }
-  100% { left: -120%; }
-}
-
-@keyframes openBook {
-  0% { transform: rotateX(14deg) scale(0.96); opacity: 0; }
-  100% { transform: rotateX(0deg) scale(1); opacity: 1; }
-}
-
 </style>
 
 <!-- SON DE PAGE -->
@@ -1461,211 +1366,90 @@ a[href="#experience"]:hover {
   </div>
 </section>
 
-<!-- Section Galerie --> <section id="galerie" class="py-24 bg-gradient-to-br from-slate-50 to-white dark:from-[#0d213a] dark:to-[#112e4f]">
-    
-    <!-- Titre --> <div class="text-center mb-16" data-aos="fade-up"> <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight text-[#0a192f] dark:text-white"> Nos <span class="text-[#5AB9EA]">réalisations</span> </h2> <p class="mt-4 text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed"> Avant / Après, vérandas, vitres, volets, terrasses… Découvrez la qualité de notre travail en images. </p> </div>
+<!-- Section Galerie -->
+<section id="galerie" class="py-24 bg-gradient-to-br from-slate-50 to-white dark:from-[#0d213a] dark:to-[#112e4f]">
+  <div class="max-w-6xl mx-auto px-4">
 
-<!-- Galerie -->
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" data-aos="zoom-in">
-
-  <!-- CARD PRO AVANT/APRES -->
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image5.jpg" class="ba-img before">
-    <img src="image4.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
+    <!-- Titre -->
+    <div class="text-center mb-16" data-aos="fade-up">
+      <h2 class="text-5xl md:text-6xl font-extrabold tracking-tight text-[#0a192f] dark:text-white">
+        Nos <span class="text-[#5AB9EA]">réalisations</span>
+      </h2>
+      <p class="mt-4 text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-2xl mx-auto leading-relaxed">
+        Avant / Après, vérandas, vitres, volets, terrasses… Découvrez bientôt la qualité de notre travail en images.
+      </p>
     </div>
+
+    <!-- Galerie responsive -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-12" data-aos="zoom-in">
+      
+      <!-- Carte image -->
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image1.png" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image2.png" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image3.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image4.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+      <div class="relative group overflow-hidden rounded-xl shadow-xl bg-gradient-to-tr from-[#e6eef7] to-[#d8e4f0] h-64">
+        <img src="image5.jpg" alt="Nettoyage de vitres" class="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105" />
+      </div>
+
+<!-- Carte premium "Lumière Rasante + Ligne Animée" -->
+<div class="relative overflow-hidden rounded-xl shadow-xl h-64 group bg-gradient-to-br from-[#dbe7f3] to-[#c7d6e6]">
+
+  <!-- Effet verre dépoli -->
+  <div class="absolute inset-0 backdrop-blur-lg bg-white/10"></div>
+
+  <!-- Halos bleus premium -->
+  <div class="absolute -top-20 -right-10 w-56 h-56 bg-[#5AB9EA]/25 rounded-full blur-3xl"></div>
+  <div class="absolute -bottom-24 -left-16 w-64 h-64 bg-[#5AB9EA]/15 rounded-full blur-3xl"></div>
+
+  <!-- Lumière rasante diagonale -->
+  <div class="absolute inset-0 bg-gradient-to-tr from-white/0 via-white/15 to-white/0 rotate-12 opacity-70"></div>
+
+  <!-- Motif micro-lignes -->
+  <div class="absolute inset-0 opacity-[0.08] bg-[linear-gradient(135deg,rgba(90,185,234,0.3)_1px,transparent_1px)] bg-[length:22px_22px]"></div>
+
+  <!-- Ligne de lumière animée -->
+  <div class="absolute inset-0 overflow-hidden pointer-events-none">
+    <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-transparent via-white/25 to-transparent translate-x-[-100%] animate-[slide_3s_linear_infinite]"></div>
   </div>
 
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image6.jpg" class="ba-img before">
-    <img src="image7.jpg" class="ba-img after">
+  <!-- Animation keyframes -->
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+  </style>
 
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
+  <!-- Contenu -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+
+    <!-- Icône minimaliste premium -->
+    <div class="w-14 h-14 rounded-full border border-[#5AB9EA]/60 flex items-center justify-center backdrop-blur-sm bg-white/10 group-hover:bg-white/20 transition">
+      <div class="w-2.5 h-2.5 bg-[#5AB9EA] rounded-full animate-pulse"></div>
     </div>
-  </div>
 
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image8.jpg" class="ba-img before">
-    <img src="image9.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image11.jpg" class="ba-img before">
-    <img src="image10.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image12.jpg" class="ba-img before">
-    <img src="image13.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image1.jpg" class="ba-img before">
-    <img src="image2.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image30.jpg" class="ba-img before">
-    <img src="image14.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-proclean h-64 rounded-xl shadow-xl">
-    <img src="image15.jpg" class="ba-img before">
-    <img src="image16.jpg" class="ba-img after">
-
-    <div class="ba-tags">
-      <span class="tag left">AVANT</span>
-      <span class="tag right">APRÈS</span>
-    </div>
-  </div>
-  
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image17.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image18.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image19.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image20.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image35.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image31.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image32.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image33.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Après intervention</div>
-</div>
-
-  <div class="ba-single h-64 rounded-xl shadow-xl relative overflow-hidden">
-  <img src="image34.jpg" class="w-full h-full object-cover">
-  <div class="absolute top-3 left-3 text-white bg-black/50 px-3 py-1 rounded-full text-xs font-medium">Avant / Après</div>
-</div>
-
-  <!-- Carte premium -->
-  <div class="relative overflow-hidden rounded-xl shadow-xl h-64 group bg-gradient-to-br from-[#dbe7f3] to-[#c7d6e6]">
-    <div class="absolute inset-0 backdrop-blur-lg bg-white/10"></div>
-    <div class="absolute -top-20 -right-10 w-56 h-56 bg-[#5AB9EA]/25 rounded-full blur-3xl"></div>
-    <div class="absolute -bottom-24 -left-16 w-64 h-64 bg-[#5AB9EA]/15 rounded-full blur-3xl"></div>
-    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
-      <span class="mt-4 text-sm text-[#2b4865] italic tracking-wide">Galerie en évolution</span>
-    </div>
+    <!-- Texte premium -->
+    <span class="mt-4 text-sm text-[#2b4865] dark:text-[#a3c4f3] italic tracking-wide">
+      Galerie en évolution
+    </span>
   </div>
 
 </div>
-
-<!-- CSS PRO CLEAN -->
-<style>
-.ba-proclean{
-  position:relative;
-  overflow:hidden;
-  cursor:pointer;
-  background:#000;
-}
-
-.ba-img{
-  position:absolute;
-  inset:0;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  transition:clip-path .9s cubic-bezier(.77,0,.18,1);
-}
-
-
-
-/* image avant */
-.ba-img.before{
-  z-index:1;
-}
-
-/* image après */
-.ba-img.after{
-  z-index:2;
-  clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
-}
-
-/* reveal net */
-.ba-proclean:hover .ba-img.after{
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-}
-
-/* tags */
-.ba-tags{
-  position:absolute;
-  top:12px;
-  left:12px;
-  right:12px;
-  display:flex;
-  justify-content:space-between;
-  z-index:5;
-  pointer-events:none;
-}
-
-.tag{
-  background:rgba(0,0,0,0.6);
-  color:white;
-  font-size:11px;
-  letter-spacing:1px;
-  padding:5px 12px;
-  border-radius:999px;
-  backdrop-blur:6px;
-}
-</style>
-
-
+  </div>
+</section>
 
 <!-- Flèche vers la section "Cartes" -->
 <section class="bg-white py-8">
@@ -1693,13 +1477,13 @@ a[href="#experience"]:hover {
 
     <!-- Sous-titre SEO -->
     <h3 class="text-2xl font-semibold mb-4 text-[#1f2937] dark:text-slate-200" data-aos="fade-up" data-aos-delay="50">
-      Intervention dans tout le Maine‑et‑Loire (49) et Loire Atlantique (44)
+      Intervention dans tout le Maine‑et‑Loire (49)
     </h3>
 
     <!-- Texte descriptif -->
     <p class="text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-6 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="100">
       Je me déplace dans tout le Maine‑et‑Loire et ses alentours : <br class="hidden md:inline" />
-      <span class="font-medium text-[#0a192f] dark:text-white">La Cornuaille, Segré, Angers, Ancenis, Oudon, Le Cellier,  Cholet, Candé, Chalonnes-sur-Loire…</span>
+      <span class="font-medium text-[#0a192f] dark:text-white">La Cornuaille, Segré, Angers, Cholet, Candé, Chalonnes-sur-Loire…</span>
     </p>
 
     <p class="text-lg md:text-xl text-slate-700 dark:text-slate-300 mb-10 max-w-3xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="150">
@@ -1715,7 +1499,6 @@ a[href="#experience"]:hover {
       <a href="/cande.html" class="hover:underline">Candé</a>
       <a href="/val-erdre-auxence.html" class="hover:underline">Val d’Erdre‑Auxence</a>
       <a href="/becon-les-granits.html" class="hover:underline">Bécon‑les‑Granits</a>
-            <a href="/ancenis.html" class="hover:underline">Ancenis</a>
     </div>
 
     <!-- Carte Google Maps -->
@@ -2170,8 +1953,8 @@ phoneBtn.addEventListener('mouseenter', () => {
 </script>
 
   <!-- Scripts -->
-<script src="https://unpkg.com/aos@2.3.4/dist/aos.js" defer></script>
-<script src="js/main.js" defer></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="js/main.js"></script>
 
 <!-- ===== BOUTON DEVIS ULTRA DESIGN ===== -->
 
@@ -2568,8 +2351,7 @@ runAnimation();
     line-height: 1.45;
   }
 </style>
-
-<section>
+<body>
 
   <h1>Compteur</h1>
 
@@ -2608,9 +2390,9 @@ runAnimation();
       });
   </script>
 
-
+  <!-- ------------------------------ -->
   <!-- WIDGET FAQ PREMIUM             -->
-
+  <!-- ------------------------------ -->
 
   <input type="checkbox" id="faq-toggle">
 
@@ -2653,8 +2435,8 @@ runAnimation();
     </details>
   </div>
 
-</section>
-
+</body>
+</html>
 <!-- SCRIPT BURGER + FERMETURE AUTO -->
 <script>
 const burger = document.getElementById("burger");
@@ -2672,8 +2454,49 @@ document.querySelectorAll(".nav-link-mobile").forEach(link => {
   });
 });
 </script>
+</body>
+</html>
 
+<section class="pt-32 pb-20 max-w-5xl mx-auto px-4">
 
+  <h1 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
+    Nettoyage de vitres au maine-et-loire
+  </h1>
 
+  <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 mb-10">
+    Au maine-et-loire et dans les communes voisines, L’Éclat d’Anjou propose un service de nettoyage de vitres haut de gamme,
+    pensé pour les particuliers et les professionnels qui recherchent un rendu impeccable, sans traces et réalisé
+    avec une discrétion totale. Chaque intervention est menée avec précision et respect de votre espace.
+  </p>
 
+  <div class="bg-white dark:bg-slate-800 shadow-sm rounded-xl p-8 mb-12">
+    <h2 class="text-2xl font-semibold mb-4 text-slate-900 dark:text-white">
+      Pourquoi choisir L’Éclat d’Anjou au Maine-et-Loire ?
+    </h2>
 
+    <ul class="space-y-3 text-slate-700 dark:text-slate-300 leading-relaxed">
+      <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">•</span> Nettoyage soigné et précis</li>
+      <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">•</span> Résultat premium sans traces</li>
+      <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">•</span> Matériel professionnel adapté à toutes les surfaces vitrées</li>
+      <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">•</span> Service ponctuel, discret et respectueux</li>
+    </ul>
+  </div>
+
+  <h2 class="text-2xl font-semibold mb-3 text-slate-900 dark:text-white">
+    Nos interventions au maine-et-loire
+  </h2>
+
+  <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-10">
+    Nous intervenons à Segré, Segré-en-Anjou Bleu, Sainte-Gemmes-d’Andigné, Nyoiseau, Le Bourg-d’Iré, La Chapelle-sur-Oudon,
+    ainsi que dans l’ensemble du secteur segréen. Chaque déplacement est optimisé pour garantir un service réactif et fiable.
+  </p>
+
+  <a href="contact.html"
+     class="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 transition text-white font-medium rounded-lg shadow">
+    Demander un devis
+  </a>
+
+</section>
+
+</body>
+</html>
