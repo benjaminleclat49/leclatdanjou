@@ -19,6 +19,16 @@
   <!-- ⚠️ ReCaptcha = petit blocage JS (reflow + TBT) mais obligatoire -->
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
+<script>
+(function() {
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile && !window.location.pathname.endsWith("mobile.html")) {
+        window.location.replace("mobile.html");
+    }
+})();
+</script>
+  
   <!-- ⚠️ compteur.php = bloque le chemin critique si exécuté trop tôt -->
   <script>
     if (!sessionStorage.getItem("compteur-envoyé")) {
