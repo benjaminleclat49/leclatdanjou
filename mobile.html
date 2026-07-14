@@ -454,11 +454,45 @@ nav {
 <header>
   <div class="header-container">
 
-    <!-- LOGO -->
-    <div class="logo-block">
-      <h1><span>L’Éclat</span> d’Anjou</h1>
-      <p>Notre transparence, notre signature</p>
-    </div>
+<!-- LOGO -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+<div class="logo-block">
+  <h1><span>L'ÉCLAT</span> D'ANJOU</h1>
+  <p>Notre transparence, notre signature</p>
+</div>
+
+<style>
+.logo-block{
+    text-align:center;
+    padding:15px 0;
+}
+
+.logo-block h1{
+    margin:0;
+    font-family:'Cinzel', serif;
+    font-size:2.1rem;
+    font-weight:700;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    color:#0B4F8A;
+    text-shadow:1px 1px 3px rgba(0,0,0,.15);
+}
+
+.logo-block h1 span{
+    color:#D4AF37;
+}
+
+.logo-block p{
+    margin-top:6px;
+    font-family:'Montserrat', sans-serif;
+    font-size:.82rem;
+    color:#6B7280;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-weight:600;
+}
+</style>
 
     <!-- NAV DESKTOP -->
     <nav>
@@ -520,114 +554,136 @@ nav {
   </div>
 </header>
 
-<style>
-/* NAV DESKTOP */
-.nav-link {
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #1f2937;
-  cursor: pointer;
-  display: flex;
-  gap: 2px;
+/* ===========================
+   MENU MOBILE PREMIUM
+=========================== */
+
+.mobile-menu{
+    position:fixed;
+    top:18px;
+    right:-110%;
+    width:82%;
+    max-width:340px;
+    height:calc(100vh - 36px);
+    background:rgba(255,255,255,.96);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+    border-radius:24px 0 0 24px;
+    box-shadow:-12px 0 35px rgba(0,0,0,.18);
+    padding:90px 28px 40px;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    transition:.45s cubic-bezier(.77,0,.175,1);
+    z-index:999999;
 }
 
-.nav-link span {
-  display: inline-block;
-  transition: transform 0.3s ease, color 0.3s ease;
+.mobile-menu.open{
+    right:0;
 }
 
-.nav-link:hover span {
-  transform: translateY(-2px);
-  color: #50d4ff;
+/* Liens */
+
+.nav-link-mobile{
+    display:flex;
+    gap:2px;
+    align-items:center;
+    padding:16px 18px;
+    border-radius:16px;
+    background:#ffffff;
+    text-decoration:none;
+    color:#133c73;
+    font-size:1.15rem;
+    font-weight:700;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    box-shadow:0 8px 20px rgba(0,0,0,.05);
+    transition:.3s;
 }
 
-/* MENU MOBILE IDENTIQUE */
-.nav-link-mobile {
-  display: flex;
-  gap: 2px;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #1f2937;
-  font-size: 1.6rem;
-  text-decoration: none;
-  position: relative;
+.nav-link-mobile:hover{
+    background:linear-gradient(135deg,#0b4f8a,#2bb8ff);
+    color:white;
+    transform:translateX(8px);
+    box-shadow:0 12px 24px rgba(43,184,255,.35);
 }
 
-.nav-link-mobile span {
-  display: inline-block;
-  transition: transform 0.3s ease, color 0.3s ease;
+.nav-link-mobile span{
+    transition:.3s;
 }
 
-.nav-link-mobile:hover span {
-  transform: translateY(-2px);
-  color: #50d4ff;
+.nav-link-mobile:hover span{
+    transform:translateY(-2px);
 }
 
-/* Instagram mobile */
-.instagram-button-mobile {
-  margin-top: 20px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background: #eaf3ff;
-  box-shadow: 0 4px 12px rgba(11,58,117,0.18);
+/* Instagram */
+
+.instagram-button-mobile{
+    margin:25px auto 0;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#0b4f8a,#2bb8ff);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 15px 30px rgba(43,184,255,.35);
+    transition:.3s;
 }
 
-.instagram-button-mobile img {
-  width: 30px;
-  height: 30px;
+.instagram-button-mobile:hover{
+    transform:scale(1.08) rotate(6deg);
 }
 
-/* BURGER */
-.burger {
-  display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
+.instagram-button-mobile img{
+    width:36px;
+    height:36px;
 }
 
-.burger span {
-  width: 28px;
-  height: 3px;
-  background: #1e293b;
-  border-radius: 3px;
+/* Burger */
+
+.burger{
+    display:none;
+    flex-direction:column;
+    gap:6px;
+    cursor:pointer;
+    z-index:1000000;
 }
 
-/* MOBILE RULES */
-@media (max-width: 768px) {
-  nav,
-  .instagram-button {
-    display: none;
-  }
-
-  .burger {
-    display: flex;
-  }
+.burger span{
+    width:30px;
+    height:3px;
+    background:#0b4f8a;
+    border-radius:10px;
+    transition:.3s;
 }
-</style>
 
-<!-- SCRIPT BURGER + FERMETURE AUTO -->
-<script>
-const burger = document.getElementById("burger");
-const mobileMenu = document.getElementById("mobileMenu");
+.burger:hover span:nth-child(1){
+    transform:translateX(-4px);
+}
 
-// Ouvrir / fermer avec le burger
-burger.addEventListener("click", () => {
-  mobileMenu.classList.toggle("open");
-});
+.burger:hover span:nth-child(2){
+    transform:translateX(4px);
+}
 
-// Fermer le menu quand on clique sur un lien
-document.querySelectorAll(".nav-link-mobile").forEach(link => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("open");
-  });
-});
-</script>
+.burger:hover span:nth-child(3){
+    transform:translateX(-4px);
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+nav,
+.instagram-button{
+display:none;
+}
+
+.burger{
+display:flex;
+}
+
+}
 
 
 
