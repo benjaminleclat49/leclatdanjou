@@ -8,6 +8,16 @@
   <!-- FAVICON -->
   <link rel="icon" href="favicon.ico" type="image/x-icon">
 
+  <script>
+(function() {
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+    if (isMobile && !window.location.pathname.endsWith("mobile.html")) {
+        window.location.replace("mobile.html");
+    }
+})();
+</script>
+
   <!-- TITLE SEO OPTIMISÉ (NE CIBLE PLUS ANGERS) -->
   <title>Nettoyage de vitres professionnel – Service premium pour particuliers | L’Éclat d’Anjou</title>
   <link rel="canonical" href="https://leclatdanjou.fr/" />
