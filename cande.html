@@ -1,471 +1,649 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="google-site-verification" content="VfH-niU_DrzxOPYPjX8UO_KdeiIWtnmYLpDLg9WlTB4" />
 
-  <!-- FAVICON -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- TITLE SEO OPTIMISÉ POUR CANDÉ -->
-  <title>Laveur de vitres à Candé – Nettoyage de vitres pour particuliers | L’Éclat d’Anjou</title>
+  <!-- SEO -->
+  <title>Nettoyage de vitres à Candé (49440) | Laveur de vitres professionnel | L'Éclat d'Anjou</title>
+
+  <meta name="description" content="Entreprise spécialisée dans le nettoyage de vitres à Candé (49440). Intervention chez les particuliers, commerces et professionnels. Devis gratuit, travail soigné et résultat impeccable avec L'Éclat d'Anjou.">
+
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="L'Éclat d'Anjou">
+  <meta name="theme-color" content="#5AB9EA">
+
   <link rel="canonical" href="https://leclatdanjou.fr/cande.html">
 
-  <!-- META DESCRIPTION OPTIMISÉE POUR CANDÉ -->
-  <meta name="description" content="Nettoyage de vitres professionnel à Candé. Service soigné, ponctuel et discret pour particuliers et entreprises. L’Éclat d’Anjou : votre expert local à Candé.">
+  <meta name="google-site-verification" content="VfH-niU_DrzxOPYPjX8UO_KdeiIWtnmYLpDLg9WlTB4">
 
- <!-- Scripts -->
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:url" content="https://leclatdanjou.fr/cande.html">
+  <meta property="og:title" content="Nettoyage de vitres à Candé | L'Éclat d'Anjou">
+  <meta property="og:description" content="Laveur de vitres professionnel à Candé pour particuliers, entreprises et commerces.">
+  <meta property="og:image" content="https://leclatdanjou.fr/images/hero-cande.webp">
 
-  <script>
-    if (!sessionStorage.getItem("compteur-envoyé")) {
-      fetch("compteur.php");
-      sessionStorage.setItem("compteur-envoyé", "1");
-    }
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nettoyage de vitres à Candé | L'Éclat d'Anjou">
+  <meta name="twitter:description" content="Entreprise spécialisée dans le nettoyage de vitres à Candé.">
+  <meta name="twitter:image" content="https://leclatdanjou.fr/images/hero-cande.webp">
 
-    function logAction(action) {
-      fetch("compteur.php", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: "action=" + encodeURIComponent(action)
-      });
-    }
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    document.querySelector("#btn-devis")?.addEventListener("click", () => logAction("clic-devis"));
-    document.querySelector("#btn-contact")?.addEventListener("click", () => logAction("clic-contact"));
-    document.querySelector("#btn-avis")?.addEventListener("click", () => logAction("clic-avis"));
-  </script>
-
-  <!-- Fonts & Tailwind -->
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     tailwind.config = {
       darkMode: false,
       theme: {
         extend: {
           fontFamily: {
-            sans: ['Inter', 'Montserrat', 'sans-serif'],
+            sans: ['Inter','Montserrat','sans-serif']
           }
         }
       }
     };
   </script>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
-  <link rel="stylesheet" href="css/custom.css" />
-  <link rel="stylesheet" href="dist/output.css" />
-  <script src="main.js" defer></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="dist/output.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
 
-  <!-- Données structurées LocalBusiness -->
+  <!-- JS -->
+  <script src="main.js" defer></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      if (!sessionStorage.getItem("compteur-envoye")) {
+        fetch("compteur.php");
+        sessionStorage.setItem("compteur-envoye", "1");
+      }
+
+      function logAction(action) {
+        fetch("compteur.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+          },
+          body: "action=" + encodeURIComponent(action)
+        });
+      }
+
+      document.getElementById("btn-devis")?.addEventListener("click", () => logAction("clic-devis"));
+      document.getElementById("btn-contact")?.addEventListener("click", () => logAction("clic-contact"));
+      document.getElementById("btn-avis")?.addEventListener("click", () => logAction("clic-avis"));
+
+    });
+  </script>
+
+  <!-- Données structurées -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "L'Eclat d’Anjou",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "La Cornuaille",
-      "addressRegion": "Pays de la Loire",
-      "postalCode": "49440",
-      "addressCountry": "FR"
+    "@context":"https://schema.org",
+    "@type":"ProfessionalService",
+    "name":"L'Éclat d'Anjou",
+    "url":"https://leclatdanjou.fr",
+    "telephone":"+33617905226",
+    "priceRange":"€€",
+    "image":"https://leclatdanjou.fr/images/hero-cande.webp",
+    "address":{
+      "@type":"PostalAddress",
+      "addressLocality":"Val d'Erdre-Auxence",
+      "postalCode":"49440",
+      "addressRegion":"Pays de la Loire",
+      "addressCountry":"FR"
     },
-    "areaServed": ["Maine-et-Loire"],
-    "url": "https://leclatdanjou.fr",
-    "telephone": "0617905226"
+    "areaServed":[
+      "Candé",
+      "Segré",
+      "Angers",
+      "Le Louroux-Béconnais",
+      "Bécon-les-Granits",
+      "Val d'Erdre-Auxence"
+    ],
+    "sameAs":[
+      "https://www.facebook.com/",
+      "https://www.instagram.com/"
+    ]
   }
   </script>
 
-  <!-- Données structurées FAQ (GÉNÉRALES, NON LOCALES) -->
+  <!-- FAQ -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
       {
-        "@type": "Question",
-        "name": "Quels sont vos tarifs pour le nettoyage de vitres ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nos tarifs dépendent des surfaces et de la fréquence d’intervention. Nous proposons des devis gratuits et rapides."
+        "@type":"Question",
+        "name":"Intervenez-vous à Candé ?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"Oui, nous intervenons régulièrement à Candé et dans les communes voisines pour le nettoyage de vitres des particuliers et professionnels."
         }
       },
       {
-        "@type": "Question",
-        "name": "Intervenez-vous chez les particuliers ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Oui, notre service est spécialement pensé pour les particuliers souhaitant un nettoyage soigné et discret."
+        "@type":"Question",
+        "name":"Nettoyez-vous les vérandas et baies vitrées ?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"Oui, nous assurons le nettoyage des baies vitrées, vérandas, vitrines de magasins et toutes surfaces vitrées."
         }
       },
       {
-        "@type": "Question",
-        "name": "Dans quelles zones intervenez-vous ?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Nous intervenons dans tout le Maine-et-Loire."
+        "@type":"Question",
+        "name":"Le devis est-il gratuit ?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"Oui, tous nos devis sont gratuits et sans engagement."
         }
       }
     ]
   }
   </script>
-</head>
 
+</head>
 <body class="bg-[#f5f5f5] text-slate-800 dark:bg-[#0d213a] dark:text-white">
 
-<!-- SEO interne -->
-<a href="/angers.html">Nettoyage de vitres à Angers</a>
-<a href="/segre.html">Nettoyage de vitres à Segré</a>
-<a href="/cande.html">Nettoyage de vitres à Candé</a>
-<a href="/val-erdre-auxence.html">Nettoyage de vitres à Val d’Erdre-Auxence</a>
-<a href="/becon-les-granits.html">Nettoyage de vitres à Bécon-les-Granits</a>
-<a href="/maine-et-loire.html">Nettoyage de vitres dans le Maine-et-Loire</a>
-<a href="/ancenis.html">Nettoyage de vitres à Ancenis</a>
+<!-- Navigation SEO locale (visible et accessible) -->
+<nav class="sr-only" aria-label="Zones d'intervention">
+  <a href="/angers.html">Nettoyage de vitres à Angers</a>
+  <a href="/segre.html">Nettoyage de vitres à Segré</a>
+  <a href="/cande.html" aria-current="page">Nettoyage de vitres à Candé</a>
+  <a href="/val-erdre-auxence.html">Nettoyage de vitres à Val d’Erdre-Auxence</a>
+  <a href="/becon-les-granits.html">Nettoyage de vitres à Bécon-les-Granits</a>
+  <a href="/ancenis.html">Nettoyage de vitres à Ancenis</a>
+  <a href="/maine-et-loire.html">Nettoyage de vitres dans le Maine-et-Loire</a>
+</nav>
 
-<!-- H1 / H2 SEO visibles -->
-<h1>Nettoyage de vitres professionnel pour particuliers et entreprises</h1>
-<h2 style="display:none">Service premium de nettoyage de vitres</h2>
+<!-- Titre principal SEO -->
+<h1>
+  Nettoyage de vitres à Candé (49440) pour particuliers, professionnels et commerces
+</h1>
 
-<!-- Bloc SEO invisible -->
-<div style="display:none">
-  <h3>Un service de nettoyage de vitres soigné, précis et adapté à chaque besoin</h3>
-  <p>
-    L’Éclat d’Anjou propose un service de nettoyage de vitres professionnel, pensé pour les particuliers,
-    les commerces et les entreprises recherchant un résultat impeccable et durable.
+<!-- Introduction optimisée SEO (visible) -->
+<section class="max-w-5xl mx-auto px-6 py-6">
+  <p class="text-base leading-7 text-slate-700">
+    L'Éclat d'Anjou est spécialisé dans le <strong>nettoyage de vitres à Candé</strong> et intervient
+    auprès des particuliers, entreprises, commerces et collectivités. Nous réalisons le nettoyage de
+    fenêtres, baies vitrées, vérandas, vitrines et surfaces vitrées avec un matériel professionnel
+    afin d'obtenir un résultat impeccable, sans traces et durable.
   </p>
-  <p>
-    Nous intervenons dans tout le Maine‑et‑Loire pour assurer un entretien régulier ou ponctuel de vos vitres,
-    qu’il s’agisse de fenêtres classiques, baies vitrées, vérandas, vitrines ou surfaces difficiles d’accès.
+
+  <p class="mt-4 text-base leading-7 text-slate-700">
+    Nous nous déplaçons à <strong>Candé</strong> ainsi que dans les communes voisines pour des
+    interventions ponctuelles ou régulières. Chaque prestation est réalisée avec soin, ponctualité
+    et discrétion afin de garantir une satisfaction maximale.
   </p>
-  <p>
-    Grâce à un matériel professionnel et une organisation rigoureuse, nous garantissons un service fiable,
-    discret et parfaitement exécuté, conçu pour valoriser votre intérieur comme votre extérieur.
-  </p>
-</div>
+</section>
 
 <!-- ===== HEADER PREMIUM ===== -->
 
 <style>
-  /* Reset de base */
-  *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  /* Reset */
+  *, *::before, *::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
   }
 
-  html, body {
-    font-family: 'Montserrat', sans-serif;
-    overflow-x: hidden;
+  html{
+    scroll-behavior:smooth;
+  }
+
+  html,
+  body{
+    font-family:'Montserrat',sans-serif;
+    overflow-x:hidden;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
   }
 
   /* Header */
-  header {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 1000;
-    backdrop-filter: blur(12px);
-    background: rgba(255,255,255,0.95);
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    transition: background 0.3s ease, box-shadow 0.3s ease;
+  header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    background:rgba(255,255,255,.96);
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+    transition:background .25s ease, box-shadow .25s ease;
   }
 
-  .header-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 12px 24px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 32px;
-    white-space: nowrap;
+  .header-container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:12px 24px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:32px;
+    white-space:nowrap;
+    position:relative;
   }
 
-  /* Logo + slogan */
-  .logo-block {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
+  /* Logo */
+  .logo-block{
+    display:flex;
+    flex-direction:column;
+    cursor:pointer;
+    text-decoration:none;
   }
 
-  .logo-block h1 {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8rem;
-    font-weight: 600;
-    color: #1e293b;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
+  /* IMPORTANT : un seul H1 sur la page */
+  .logo-block .logo-title{
+    font-family:'Cormorant Garamond',serif;
+    font-size:1.8rem;
+    font-weight:600;
+    color:#1e293b;
+    letter-spacing:.02em;
+    line-height:1.2;
   }
 
-  .logo-block h1 span {
-    color: #50d4ff;
+  .logo-block .logo-title span{
+    color:#50d4ff;
   }
 
-  .logo-block p {
-    font-family: 'Playfair Display', serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 0.95rem;
-    color: #64748b;
-    margin-top: 2px;
+  .logo-block p{
+    font-family:'Playfair Display',serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:.95rem;
+    color:#64748b;
+    margin-top:2px;
   }
 
-  /* Animation */
-  @keyframes slideInLeft {
-    0% { opacity: 0; transform: translateX(-40px); }
-    100% { opacity: 1; transform: translateX(0); }
+  /* Animation légère */
+  @keyframes slideInLeft{
+    from{
+      opacity:0;
+      transform:translateX(-30px);
+    }
+    to{
+      opacity:1;
+      transform:translateX(0);
+    }
   }
 
-  .animate-slideInLeft {
-    opacity: 0;
-    animation: slideInLeft 0.8s ease-out forwards;
+  .animate-slideInLeft{
+    animation:slideInLeft .8s ease forwards;
   }
 
-  .animate-slideInLeftDelay {
-    opacity: 0;
-    animation: slideInLeft 1.2s ease-out forwards;
+  .animate-slideInLeftDelay{
+    animation:slideInLeft 1s ease forwards;
   }
 
   /* Navigation */
-  nav {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    flex-shrink: 1;
+  nav{
+    display:flex;
+    align-items:center;
+    gap:22px;
+    flex-shrink:1;
   }
 
-  .nav-link {
-    position: relative;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    color: #1f2937;
-    transition: color 0.3s ease, transform 0.3s ease;
-    cursor: pointer;
-    padding: 4px 0;
-    display: inline-block;
+  .nav-link{
+    position:relative;
+    display:inline-block;
+    padding:4px 0;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    font-weight:500;
+    color:#1f2937;
+    text-decoration:none;
+    transition:color .25s ease;
   }
 
-  .nav-link span {
-    display: inline-block;
-    transition: transform 0.3s ease, color 0.3s ease;
+  .nav-link span{
+    display:inline-block;
+    transition:transform .25s ease,color .25s ease;
   }
 
-  .nav-link:hover span {
-    transform: translateY(-2px);
-    color: #50d4ff;
+  .nav-link:hover{
+    color:#50d4ff;
   }
 
-  .nav-link::after {
-    content: "";
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #50d4ff, #25D366);
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 0.4s ease;
+  .nav-link:hover span{
+    transform:translateY(-2px);
   }
 
-  .nav-link:hover::after {
-    transform: scaleX(1);
+  .nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:100%;
+    height:2px;
+    background:linear-gradient(to right,#50d4ff,#25D366);
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform .3s ease;
+  }
+
+  .nav-link:hover::after{
+    transform:scaleX(1);
+  }
+
+  .nav-link{
+    position:relative;
+    display:inline-block;
+    padding:4px 0;
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing:.12em;
+    color:#1f2937;
+    text-decoration:none;
+    cursor:pointer;
+    transition:color .25s ease;
+  }
+
+  .nav-link span{
+    display:inline-block;
+    transition:transform .25s ease,color .25s ease;
+  }
+
+  .nav-link:hover{
+    color:#50d4ff;
+  }
+
+  .nav-link:hover span{
+    transform:translateY(-2px);
+    color:#50d4ff;
+  }
+
+  .nav-link::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-4px;
+    width:100%;
+    height:2px;
+    background:linear-gradient(to right,#50d4ff,#25D366);
+    transform:scaleX(0);
+    transform-origin:left;
+    transition:transform .3s ease;
+  }
+
+  .nav-link:hover::after{
+    transform:scaleX(1);
   }
 
   /* Sous-menu */
-  .submenu {
-    position: absolute;
-    top: 110%;
-    left: 0;
-    width: 200px;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-    padding: 8px 0;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.25s ease;
-    z-index: 999;
+  .submenu{
+    position:absolute;
+    top:110%;
+    left:0;
+    width:220px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 10px 30px rgba(0,0,0,.12);
+    padding:8px 0;
+    opacity:0;
+    visibility:hidden;
+    pointer-events:none;
+    transition:opacity .25s ease,visibility .25s ease;
+    z-index:999;
   }
 
-  .submenu a {
-    display: block;
-    padding: 8px 16px;
-    color: #1f2937;
-    text-decoration: none;
-    font-size: 0.9rem;
-    transition: background 0.2s ease, color 0.2s ease;
+  .submenu a{
+    display:block;
+    padding:10px 18px;
+    color:#1f2937;
+    text-decoration:none;
+    font-size:.92rem;
+    transition:background .2s ease,color .2s ease,padding-left .2s ease;
   }
 
-  .submenu a:hover {
-    background: #f0faff;
-    color: #50d4ff;
+  .submenu a:hover{
+    background:#f0faff;
+    color:#50d4ff;
+    padding-left:22px;
   }
 
-  .dropdown:hover .submenu {
-    opacity: 1;
-    pointer-events: auto;
+  .dropdown:hover .submenu,
+  .dropdown:focus-within .submenu{
+    opacity:1;
+    visibility:visible;
+    pointer-events:auto;
   }
 
   /* Instagram */
-  .instagram-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 50px;
-    border-radius: 50%;
-    background: #eaf3ff;
-    box-shadow: 0 4px 12px rgba(11,58,117,0.18);
-    transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  .instagram-button{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:#eaf3ff;
+    box-shadow:0 4px 12px rgba(11,58,117,.18);
+    transition:transform .25s ease,box-shadow .25s ease,background .25s ease;
   }
 
-  .instagram-button img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+  .instagram-button img{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    display:block;
   }
 
-  .instagram-button:hover {
-    transform: translateY(-2px);
-    background: #dbeaff;
-    box-shadow: 0 8px 20px rgba(11,58,117,0.26);
+  .instagram-button:hover{
+    transform:translateY(-2px);
+    background:#dbeaff;
+    box-shadow:0 10px 24px rgba(11,58,117,.22);
   }
 
-/* Téléphone */
-.phone-button-premium {
-  display: inline-flex;
-  align-items: center;
-  gap: 1px;
-  padding: 9px 5px;
-  border-radius: 999px;
-  background: linear-gradient(145deg, rgba(255,255,255,0.95), rgba(245,250,252,0.85));
-  border: 1px solid rgba(80, 212, 255, 0.35);
-  backdrop-filter: blur(8px);
-  color: #0a0a0a;
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8), 0 10px 28px rgba(80,212,255,0.25);
-  transition: all 0.35s ease;
+  /* Téléphone */
+  .phone-button-premium{
+    position:absolute;
+    top:50%;
+    right:-3px;
+    transform:translateY(-50%);
+    z-index:50;
 
-  /* --- Position premium --- */
-  position: absolute;
-  right: -3px; /* déborde comme ton logo fiscal */
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 50;
-}
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
 
-.phone-button-premium:hover {
-  transform: translateY(-2px) translateY(-50%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.9), 0 18px 42px rgba(80,212,255,0.38);
-}
+    padding:9px 14px;
 
-.phone-icon-premium {
-  width: 15px;
-  height: 15px;
-  background: linear-gradient(180deg, #50d4ff, #2bb8e8);
-  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z'/></svg>") center / contain no-repeat;
-}
+    border-radius:999px;
+    border:1px solid rgba(80,212,255,.35);
+
+    background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(245,250,252,.9));
+
+    color:#0a0a0a;
+    font-size:.8rem;
+    font-weight:600;
+    letter-spacing:.08em;
+    text-decoration:none;
+    text-transform:uppercase;
+
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.8),
+      0 10px 28px rgba(80,212,255,.25);
+
+    transition:all .3s ease;
+  }
+
+  .phone-button-premium:hover{
+    transform:translateY(calc(-50% - 2px));
+    box-shadow:
+      inset 0 1px 0 rgba(255,255,255,.9),
+      0 18px 42px rgba(80,212,255,.35);
+  }
+
+  .phone-icon-premium{
+    width:15px;
+    height:15px;
+    flex-shrink:0;
+    background:linear-gradient(180deg,#50d4ff,#2bb8e8);
+    mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z'/></svg>") center/contain no-repeat;
+    -webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z'/></svg>") center/contain no-repeat;
+  }
+
+  .phone-text{
+    white-space:nowrap;
+  }
 
   /* Badge fiscal */
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.06); }
-    100% { transform: scale(1); }
+  @keyframes pulse{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.05);}
+    100%{transform:scale(1);}
   }
 </style>
-
 <header>
   <div class="header-container">
 
-    <!-- Badge fiscal -->
-    <div style="position: fixed; top: 12px; left: 12px; z-index: 9999;">
-      <img src="badge-credit-impot.webp" alt="50% Crédit d'impôt" style="height:155px; animation:pulse 2.5s ease-in-out infinite;">
+    <!-- Badge crédit d'impôt -->
+    <div style="position:absolute; top:12px; left:12px; z-index:999;">
+      <img
+        src="badge-credit-impot.webp"
+        alt="Bénéficiez de 50 % de crédit d'impôt sur nos prestations de nettoyage de vitres"
+        width="155"
+        height="155"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+        style="height:155px; animation:pulse 2.5s ease-in-out infinite;">
     </div>
 
     <!-- Logo -->
-    <div class="logo-block animate-slideInLeft">
-      <h1><span>L’Éclat</span> d’Anjou</h1>
-      <p class="animate-slideInLeftDelay">Notre transparence, notre signature</p>
-    </div>
+    <a href="/" class="logo-block animate-slideInLeft" aria-label="Retour à l'accueil L'Éclat d'Anjou">
+      <div class="logo-title">
+        <span>L’Éclat</span> d’Anjou
+      </div>
+      <p class="animate-slideInLeftDelay">
+        Notre transparence, notre signature
+      </p>
+    </a>
 
-    <!-- Navigation -->
-    <nav>
+    <!-- Navigation principale -->
+    <nav aria-label="Navigation principale">
+
       <a href="#accueil" class="nav-link"><span>A</span><span>C</span><span>C</span><span>U</span><span>E</span><span>I</span><span>L</span></a>
+
       <a href="#apropos" class="nav-link"><span>À</span><span>P</span><span>R</span><span>O</span><span>P</span><span>O</span><span>S</span></a>
+
       <a href="#experience" class="nav-link"><span>E</span><span>X</span><span>P</span><span>É</span><span>R</span><span>I</span><span>E</span><span>N</span><span>C</span><span>E</span></a>
+
       <a href="#services" class="nav-link"><span>S</span><span>E</span><span>R</span><span>V</span><span>I</span><span>C</span><span>E</span><span>S</span></a>
+
       <a href="#galerie" class="nav-link"><span>G</span><span>A</span><span>L</span><span>E</span><span>R</span><span>I</span><span>E</span></a>
+
       <a href="#cartes" class="nav-link"><span>C</span><span>A</span><span>R</span><span>T</span><span>E</span><span>S</span></a>
+
       <a href="#avis" class="nav-link"><span>A</span><span>V</span><span>I</span><span>S</span></a>
+
       <a href="#contact" class="nav-link"><span>C</span><span>O</span><span>N</span><span>T</span><span>A</span><span>C</span><span>T</span></a>
 
-      <a class="instagram-button" href="https://instagram.com/leclatdanjou" target="_blank" rel="noopener">
-        <img src="logo-instagram.jpg" alt="Instagram L’Éclat d’Anjou">
+      <a class="instagram-button"
+         href="https://instagram.com/leclatdanjou"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="Instagram L'Éclat d'Anjou">
+
+        <img
+          src="logo-instagram.jpg"
+          alt="Instagram L'Éclat d'Anjou"
+          width="30"
+          height="30"
+          loading="lazy"
+          decoding="async">
       </a>
 
-      <a href="tel:0617905226" class="phone-button-premium">
+      <a href="tel:+33617905226"
+         class="phone-button-premium"
+         aria-label="Appeler L'Éclat d'Anjou">
+
         <span class="phone-icon-premium"></span>
-        <span class="phone-text">06 17 90 52 26</span>
+        <span class="phone-text">06&nbsp;17&nbsp;90&nbsp;52&nbsp;26</span>
+
       </a>
+
     </nav>
 
-  </div>
+</div>
+
 </header>
-<section id="accueil" class="hero-section" style="position: relative;">
 
-  <img src="hero.jpg" alt="Image d'accueil" class="hero">
+<!-- ================= HERO ================= -->
 
-  <!-- POINT 1 -->
+<section id="accueil" class="hero-section" style="position:relative;">
+
+  <img
+    src="hero.jpg"
+    alt="Nettoyage de vitres à Candé par L'Éclat d'Anjou"
+    class="hero"
+    width="1920"
+    height="1080"
+    fetchpriority="high"
+    decoding="async">
+
+  <!-- Pergola -->
   <div class="radar-point" style="top:48%; left:55%;">
     <span class="plus-anim">+</span>
     <div class="tooltip">
       <div class="tooltip-title">Pergola</div>
-      <p>Nettoyage des montants, dégraissage des zones exposées et rinçage contrôlé pour éviter les traces.</p>
+      <p>Nettoyage des montants, dégraissage et rinçage pour un résultat impeccable sans traces.</p>
     </div>
   </div>
 
-  <!-- POINT 2 -->
+  <!-- Vitres -->
   <div class="radar-point" style="top:67%; left:76.5%;">
     <span class="plus-anim">+</span>
     <div class="tooltip">
       <div class="tooltip-title">Vitres</div>
-      <p>Lavage à l’eau pure ou raclette, angles repris manuellement pour un rendu uniforme.</p>
+      <p>Lavage professionnel à l'eau pure ou à la raclette avec finition manuelle des angles.</p>
     </div>
   </div>
 
-  <!-- POINT 3 -->
+  <!-- Terrasse -->
   <div class="radar-point" style="top:85%; left:47%;">
     <span class="plus-anim">+</span>
     <div class="tooltip">
       <div class="tooltip-title">Terrasse</div>
-      <p>Nettoyage basse pression adapté au matériau, retrait des mousses et dépôts incrustés.</p>
+      <p>Élimination des mousses et salissures grâce à un nettoyage adapté à chaque revêtement.</p>
     </div>
   </div>
 
-  <!-- POINT 4 -->
+  <!-- Véranda -->
   <div class="radar-point" style="top:60%; left:20%;">
     <span class="plus-anim">+</span>
     <div class="tooltip">
       <div class="tooltip-title">Véranda</div>
-      <p>Vitrages, montants et joints nettoyés pour optimiser la luminosité et éviter l’encrassement.</p>
+      <p>Nettoyage complet des vitrages, montants et joints pour retrouver toute la luminosité.</p>
     </div>
   </div>
 
-  <!-- POINT 5 -->
+  <!-- Volets -->
   <div class="radar-point" style="top:35%; left:60%;">
     <span class="plus-anim">+</span>
     <div class="tooltip">
       <div class="tooltip-title">Volets</div>
-      <p>Dépoussiérage, lavage manuel et rinçage doux pour préserver la peinture et les mécanismes.</p>
+      <p>Lavage délicat préservant les matériaux et les mécanismes tout en supprimant les salissures.</p>
     </div>
   </div>
 
@@ -473,153 +651,252 @@
 
 <style>
 
-/* HERO */
-.hero-section .hero {
-  width: 100%;
-  display: block;
+/* ================= HERO ================= */
+
+.hero-section{
+  position:relative;
+  overflow:hidden;
 }
 
-/* POINTS – version ultra premium */
-.radar-point {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
-  background: radial-gradient(circle, #00C6FF 45%, rgba(0,198,255,0.22) 80%);
+.hero-section .hero{
+  display:block;
+  width:100%;
+  height:auto;
+  object-fit:cover;
+}
+
+/* ================= POINTS INTERACTIFS ================= */
+
+.radar-point{
+  position:absolute;
+  transform:translate(-50%,-50%);
+  width:54px;
+  height:54px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  cursor:pointer;
+  z-index:20;
+  overflow:visible;
+
+  background:radial-gradient(circle,#00C6FF 45%,rgba(0,198,255,.22) 80%);
+
   box-shadow:
-    0 0 28px rgba(0,198,255,0.85),
-    inset 0 0 14px rgba(255,255,255,0.45),
-    0 0 60px rgba(0,198,255,0.35);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  animation: radarPulse 2.6s infinite ease-in-out;
-  z-index: 2;
-  overflow: visible;
+    0 0 28px rgba(0,198,255,.75),
+    inset 0 0 14px rgba(255,255,255,.40),
+    0 0 60px rgba(0,198,255,.25);
+
+  animation:radarPulse 2.6s ease-in-out infinite;
+  will-change:transform;
 }
 
-/* Anneau holographique multi-couches */
 .radar-point::before,
-.radar-point::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  pointer-events: none;
+.radar-point::after{
+  content:"";
+  position:absolute;
+  inset:50%;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  pointer-events:none;
 }
 
-.radar-point::before {
-  width: 78px;
-  height: 78px;
-  border: 2px solid rgba(0,198,255,0.35);
-  animation: rotateRing 7s linear infinite;
-  filter: drop-shadow(0 0 8px rgba(0,198,255,0.5));
+.radar-point::before{
+  width:78px;
+  height:78px;
+  border:2px solid rgba(0,198,255,.35);
+  animation:rotateRing 7s linear infinite;
 }
 
-.radar-point::after {
-  width: 110px;
-  height: 110px;
-  border: 1px solid rgba(0,198,255,0.18);
-  animation: rotateRingReverse 9s linear infinite;
-  filter: drop-shadow(0 0 10px rgba(0,198,255,0.25));
+.radar-point::after{
+  width:110px;
+  height:110px;
+  border:1px solid rgba(0,198,255,.18);
+  animation:rotateRingReverse 9s linear infinite;
 }
 
-/* Effet scan lumineux */
-.radar-point:hover::after {
-  animation: scanGlow 1.6s ease-out;
+.radar-point:hover::after{
+  animation:scanGlow 1.5s ease-out;
 }
 
-/* Plus holographique */
-.plus-anim {
-  color: #ffffff;
-  font-size: 28px;
-  font-weight: 900;
+/* ================= PLUS ================= */
+
+.plus-anim{
+  color:#fff;
+  font-size:28px;
+  font-weight:900;
+  line-height:1;
+
   text-shadow:
     0 0 10px rgba(0,198,255,1),
-    0 0 18px rgba(0,198,255,0.8);
-  animation: plusBounce 1.4s infinite ease-in-out;
+    0 0 20px rgba(0,198,255,.8);
+
+  animation:plusBounce 1.5s ease-in-out infinite;
 }
 
-/* TOOLTIP – version carte en lévitation */
-.tooltip {
-  display: none;
-  position: absolute;
-  top: -160px;
-  left: 50%;
-  transform: translateX(-50%) scale(0.92);
-  width: 280px;
-  padding: 22px;
-  border-radius: 18px;
+/* ================= TOOLTIP ================= */
 
-  background: rgba(0, 25, 45, 0.65);
-  backdrop-filter: blur(18px) saturate(220%);
-  border: 1px solid rgba(0,198,255,0.55);
+.tooltip{
+  position:absolute;
+  top:-165px;
+  left:50%;
+  transform:translateX(-50%) scale(.95);
+
+  width:290px;
+  padding:22px;
+
+  border-radius:18px;
+  border:1px solid rgba(0,198,255,.45);
+
+  background:rgba(5,28,45,.72);
+  backdrop-filter:blur(16px);
+  -webkit-backdrop-filter:blur(16px);
 
   box-shadow:
-    0 0 40px rgba(0,198,255,0.55),
-    inset 0 0 22px rgba(255,255,255,0.12);
+    0 0 35px rgba(0,198,255,.35),
+    inset 0 0 16px rgba(255,255,255,.08);
 
-  opacity: 0;
-  transition: opacity .35s ease, transform .35s ease;
-  z-index: 3;
+  opacity:0;
+  visibility:hidden;
+  pointer-events:none;
+
+  transition:
+    opacity .3s ease,
+    transform .3s ease,
+    visibility .3s;
+
+  z-index:30;
 }
 
-/* Apparition premium */
-.radar-point:hover .tooltip {
-  display: block;
-  opacity: 1;
-  transform: translateX(-50%) translateY(-10px) scale(1);
+.radar-point:hover .tooltip{
+  opacity:1;
+  visibility:visible;
+  transform:translateX(-50%) translateY(-10px) scale(1);
 }
 
-/* TITRE */
-.tooltip-title {
-  font-size: 19px;
-  font-weight: 800;
-  color: #5FE3FF;
-  margin-bottom: 12px;
-  text-shadow: 0 0 8px rgba(0,198,255,0.7);
+/* Flèche */
+
+.tooltip::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:-10px;
+  transform:translateX(-50%) rotate(45deg);
+
+  width:18px;
+  height:18px;
+
+  background:rgba(5,28,45,.72);
+
+  border-right:1px solid rgba(0,198,255,.45);
+  border-bottom:1px solid rgba(0,198,255,.45);
 }
 
-/* TEXTE lisible */
-.tooltip p {
-  margin: 0;
-  font-size: 15px;
-  color: #EFFFFF;
-  line-height: 1.6;
-  font-weight: 500;
-  text-shadow: 0 0 6px rgba(0,0,0,0.55);
+/* ================= TITRE ================= */
+
+.tooltip-title{
+  margin-bottom:10px;
+
+  font-size:19px;
+  font-weight:700;
+
+  color:#5FE3FF;
+
+  text-shadow:0 0 10px rgba(0,198,255,.55);
 }
 
-/* Animations */
-@keyframes radarPulse {
-  0% { box-shadow: 0 0 0 0 rgba(0,198,255,0.55); }
-  50% { box-shadow: 0 0 0 38px rgba(0,198,255,0); }
-  100% { box-shadow: 0 0 0 0 rgba(0,198,255,0); }
+/* ================= TEXTE ================= */
+
+.tooltip p{
+  margin:0;
+
+  color:#eefcff;
+
+  font-size:15px;
+  line-height:1.65;
+  font-weight:500;
 }
 
-@keyframes plusBounce {
-  0%,100% { transform: scale(1); opacity: 1; }
-  50% { transform: scale(1.55); opacity: .75; }
+/* ================= ANIMATIONS ================= */
+
+@keyframes radarPulse{
+
+  0%{
+    transform:translate(-50%,-50%) scale(1);
+  }
+
+  50%{
+    transform:translate(-50%,-50%) scale(1.08);
+  }
+
+  100%{
+    transform:translate(-50%,-50%) scale(1);
+  }
+
 }
 
-@keyframes rotateRing {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@keyframes plusBounce{
+
+  0%,100%{
+    transform:scale(1);
+  }
+
+  50%{
+    transform:scale(1.35);
+  }
+
 }
 
-@keyframes rotateRingReverse {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
+@keyframes rotateRing{
+
+  from{
+    transform:translate(-50%,-50%) rotate(0deg);
+  }
+
+  to{
+    transform:translate(-50%,-50%) rotate(360deg);
+  }
+
 }
 
-@keyframes scanGlow {
-  0% { box-shadow: 0 0 0 rgba(0,198,255,0); }
-  100% { box-shadow: 0 0 40px rgba(0,198,255,0.8); }
+@keyframes rotateRingReverse{
+
+  from{
+    transform:translate(-50%,-50%) rotate(360deg);
+  }
+
+  to{
+    transform:translate(-50%,-50%) rotate(0deg);
+  }
+
+}
+
+@keyframes scanGlow{
+
+  0%{
+    box-shadow:0 0 0 rgba(0,198,255,0);
+  }
+
+  100%{
+    box-shadow:0 0 40px rgba(0,198,255,.75);
+  }
+
+}
+
+/* Réduction des animations pour l'accessibilité */
+
+@media (prefers-reduced-motion:reduce){
+
+  *,
+  *::before,
+  *::after{
+    animation:none!important;
+    transition:none!important;
+  }
+
 }
 
 </style>
-
 
 <section id="apropos" class="relative py-20 bg-gradient-to-b from-white to-slate-100 overflow-hidden">
 
@@ -2510,15 +2787,14 @@ runAnimation();
       });
   </script>
 
-  <!-- ------------------------------ -->
-  <!-- WIDGET FAQ PREMIUM             -->
-  <!-- ------------------------------ -->
+  <!-- ===================================================== -->
+  <!-- FAQ PREMIUM SEO -->
+  <!-- ===================================================== -->
 
   <input type="checkbox" id="faq-toggle">
 
-  <label id="faq-toggle-label" for="faq-toggle">
-    <!-- Icône raclette professionnelle -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+  <label id="faq-toggle-label" for="faq-toggle" aria-label="Ouvrir la FAQ">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
       <path d="M3 4h18l-2 4H5L3 4z" stroke-width="2" stroke-linejoin="round"/>
       <path d="M12 8v10" stroke-width="2" stroke-linecap="round"/>
       <path d="M10 18h4" stroke-width="2" stroke-linecap="round"/>
@@ -2527,115 +2803,127 @@ runAnimation();
   </label>
 
   <div id="faq-panel">
-    <h3>Questions fréquentes</h3>
+
+    <h2>Questions fréquentes sur le nettoyage de vitres à Candé</h2>
 
     <details>
-      <summary>Intervenez-vous à Ancenis et ses alentours</summary>
-      <p>Oui, nous intervenons à Ancenis, Saint-Géréon, Mésanger, Pouillé-les-Coteaux, La Roche-Blanche, Val d’Erdre-Auxence et les communes voisines.</p>
+      <summary>Intervenez-vous à Candé et dans les communes voisines ?</summary>
+      <p>Oui. Nous intervenons à Candé, Angrie, Loiré, Le Louroux-Béconnais, Val d'Erdre-Auxence, Bécon-les-Granits, Ancenis ainsi que dans une grande partie du Maine-et-Loire.</p>
     </details>
 
     <details>
-      <summary>Nettoyez-vous les vérandas et verrières</summary>
-      <p>Oui, nous nettoyons les vérandas, verrières et grandes surfaces vitrées.</p>
+      <summary>Nettoyez-vous les vérandas, verrières et baies vitrées ?</summary>
+      <p>Oui. Nous réalisons le nettoyage des vérandas, verrières, baies vitrées, vitrines commerciales et toutes les surfaces vitrées avec un matériel professionnel garantissant un résultat sans traces.</p>
     </details>
 
     <details>
-      <summary>Proposez-vous un entretien régulier</summary>
-      <p>Oui, nous proposons des formules mensuelles, trimestrielles ou saisonnières.</p>
+      <summary>Proposez-vous un entretien régulier ?</summary>
+      <p>Oui. Nous proposons des interventions ponctuelles ou régulières (mensuelles, trimestrielles ou saisonnières) selon vos besoins.</p>
     </details>
 
     <details>
-      <summary>Intervenez-vous pour les vitrines commerciales</summary>
-      <p>Oui, nous nettoyons les vitrines de boutiques, commerces et bureaux à Ancenis et Angers.</p>
+      <summary>Intervenez-vous chez les particuliers et les professionnels ?</summary>
+      <p>Oui. Nous accompagnons les particuliers, commerces, bureaux, artisans, professions libérales et entreprises.</p>
     </details>
 
     <details>
-      <summary>Nettoyez-vous les baies vitrées modernes</summary>
-      <p>Oui, nous intervenons sur les baies vitrées de maisons récentes.</p>
+      <summary>Le devis est-il gratuit ?</summary>
+      <p>Oui. Tous nos devis sont gratuits, rapides et sans engagement.</p>
     </details>
+
   </div>
 
-</body>
-</html>
-<!-- SCRIPT BURGER + FERMETURE AUTO -->
-<script>
-const burger = document.getElementById("burger");
-const mobileMenu = document.getElementById("mobileMenu");
+  <!-- ===================================================== -->
+  <!-- SCRIPT MENU MOBILE -->
+  <!-- ===================================================== -->
 
-// Ouvrir / fermer avec le burger
-burger.addEventListener("click", () => {
-  mobileMenu.classList.toggle("open");
-});
+  <script>
+    const burger=document.getElementById("burger");
+    const mobileMenu=document.getElementById("mobileMenu");
 
-// Fermer le menu quand on clique sur un lien
-document.querySelectorAll(".nav-link-mobile").forEach(link => {
-  link.addEventListener("click", () => {
-    mobileMenu.classList.remove("open");
-  });
-});
-</script>
-</body>
-</html>
+    if(burger && mobileMenu){
 
-<!-- SECTION SEO LONG (visible, design premium) -->
-<section class="pt-32 pb-20 max-w-5xl mx-auto px-4">
+      burger.addEventListener("click",()=>{
+        mobileMenu.classList.toggle("open");
+      });
 
-  <!-- Titre principal (H2 car le H1 est déjà en haut de page) -->
-  <h2 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
-    Nettoyage de vitres à Candé
-  </h2>
+      document.querySelectorAll(".nav-link-mobile").forEach(link=>{
+        link.addEventListener("click",()=>{
+          mobileMenu.classList.remove("open");
+        });
+      });
 
-  <!-- Intro premium -->
-  <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 mb-10">
-    À Candé, L’Éclat d’Anjou assure un nettoyage de vitres haut de gamme, pensé pour les particuliers et les professionnels
-    qui recherchent un résultat impeccable, sans traces et réalisé avec une discrétion absolue. Chaque intervention est menée
-    avec précision, dans le respect de votre intérieur et de vos contraintes.
-  </p>
+    }
+  </script>
 
-  <!-- Bloc "Pourquoi nous choisir" -->
-  <div class="bg-white dark:bg-slate-800 shadow-sm rounded-xl p-8 mb-12">
-    <h3 class="text-2xl font-semibold mb-4 text-slate-900 dark:text-white">
-      Pourquoi choisir L’Éclat d’Anjou à Candé ?
+  <!-- ===================================================== -->
+  <!-- SECTION SEO -->
+  <!-- ===================================================== -->
+
+  <section class="pt-32 pb-20 max-w-5xl mx-auto px-4">
+
+    <h2 class="text-4xl font-bold tracking-tight text-slate-900 dark:text-white mb-6">
+      Nettoyage de vitres à Candé : un service professionnel pour particuliers et entreprises
+    </h2>
+
+    <p class="text-lg leading-relaxed text-slate-700 dark:text-slate-300 mb-10">
+      L'Éclat d'Anjou est spécialisé dans le nettoyage de vitres à Candé et dans les communes voisines. Nous intervenons auprès des particuliers, entreprises, commerces et bureaux pour offrir des vitrages parfaitement propres, sans traces et durablement éclatants. Chaque prestation est réalisée avec du matériel professionnel, dans le respect de votre habitation ou de vos locaux.
+    </p>
+
+    <div class="bg-white dark:bg-slate-800 shadow-sm rounded-xl p-8 mb-12">
+
+      <h3 class="text-2xl font-semibold mb-4 text-slate-900 dark:text-white">
+        Pourquoi choisir L'Éclat d'Anjou ?
+      </h3>
+
+      <ul class="space-y-3 text-slate-700 dark:text-slate-300 leading-relaxed">
+
+        <li class="flex items-start gap-2">
+          <span class="text-blue-600 font-bold">✔</span>
+          Nettoyage professionnel sans traces.
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-blue-600 font-bold">✔</span>
+          Intervention rapide sur Candé et tout le secteur.
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-blue-600 font-bold">✔</span>
+          Vérandas, baies vitrées, vitrines, fenêtres et verrières.
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-blue-600 font-bold">✔</span>
+          Prestations ponctuelles ou contrats d'entretien.
+        </li>
+
+        <li class="flex items-start gap-2">
+          <span class="text-blue-600 font-bold">✔</span>
+          Devis gratuit et sans engagement.
+        </li>
+
+      </ul>
+
+    </div>
+
+    <h3 class="text-2xl font-semibold mb-3 text-slate-900 dark:text-white">
+      Zone d'intervention autour de Candé
     </h3>
 
-    <ul class="space-y-3 text-slate-700 dark:text-slate-300 leading-relaxed">
-      <li class="flex items-start gap-2">
-        <span class="text-blue-600 font-bold">•</span>
-        Intervention soignée, précise et discrète
-      </li>
-      <li class="flex items-start gap-2">
-        <span class="text-blue-600 font-bold">•</span>
-        Résultat premium : transparence parfaite, sans traces ni coulures
-      </li>
-      <li class="flex items-start gap-2">
-        <span class="text-blue-600 font-bold">•</span>
-        Matériel professionnel adapté aux vitrages classiques, vérandas, verrières et vitrines
-      </li>
-      <li class="flex items-start gap-2">
-        <span class="text-blue-600 font-bold">•</span>
-        Service ponctuel, respectueux de votre espace et de votre temps
-      </li>
-    </ul>
-  </div>
+    <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-10">
+      Nous nous déplaçons à Candé, Angrie, Loiré, Le Louroux-Béconnais, Val d'Erdre-Auxence, Bécon-les-Granits, Ancenis, Segré ainsi que dans l'ensemble du Maine-et-Loire afin de garantir un service de proximité, réactif et de qualité.
+    </p>
 
-  <!-- Zones d'intervention -->
-  <h3 class="text-2xl font-semibold mb-3 text-slate-900 dark:text-white">
-    Nos interventions à Candé
-  </h3>
+    <a href="contact.html"
+       class="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 transition text-white font-medium rounded-lg shadow"
+       aria-label="Demander un devis gratuit">
 
-  <p class="text-slate-700 dark:text-slate-300 leading-relaxed mb-10">
-    Nous intervenons sur l’ensemble de Candé et des alentours : centre-ville, quartiers résidentiels, zones pavillonnaires
-    et secteurs proches comme Angrie, Loiré ou Le Louroux-Béconnais. Chaque déplacement est optimisé pour garantir un service
-    réactif, soigné et parfaitement exécuté.
-  </p>
+      Demander un devis gratuit
 
-  <!-- CTA -->
-  <a href="contact.html"
-     class="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 transition text-white font-medium rounded-lg shadow">
-    Demander un devis
-  </a>
+    </a>
 
-</section>
+  </section>
 
 </body>
 </html>
