@@ -174,12 +174,5 @@
         <priority>0.7</priority>
     </url>
 
-    <!-- Ancienne page (uniquement si elle existe encore et ne redirige pas) -->
-    <url>
-        <loc>https://leclatdanjou.fr/Laveur-de-vitres-Segré.html</loc>
-        <lastmod>2026-07-31</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
 
 </urlset>
